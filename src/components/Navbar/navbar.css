@@ -17,6 +17,10 @@
 .logo{
     height: 4rem;
     object-fit: cover;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: -moz-none;
+    cursor: pointer;
 }
 
 .desktopMenuListItem{
@@ -36,7 +40,19 @@
     align-items: center;
     justify-content: center;
     border-radius: 2rem;
-    padding: 0 1rem;
+    padding: 0 1rem 0 0;
+    cursor: pointer;
+    transition: transform 0.5s, box-shadow 0.5s;
+
+}
+.desktopMenuButton:active{
+        transform: translateY(4px);
+        box-shadow: none;
+        background-color: white;
+}
+
+.desktopMenuButton:hover{
+    border-bottom: 4px solid blue; 
 }
 
 .desktopMenuImg{

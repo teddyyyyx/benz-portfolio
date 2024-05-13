@@ -1,0 +1,108 @@
+#intro{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+
+.benzImg{
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    object-fit: cover;
+}
+
+
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3.5rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 1px 1px 8px rgb(30, 30, 30);
+
+}
+
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName{
+    color: blue;
+    transition: transform 0.5s, box-shadow 0.5s;
+    cursor: pointer;
+
+}
+
+.introName:hover{
+    color: red;
+
+}
+
+
+
+.introPara{
+    font-size: medium;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 1rem ;
+}
+.emailImg{
+    width: 3rem;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    padding: .8rem 1rem;
+    margin: 1rem 0;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 1px 20px 50px rgb(30, 30, 30);;
+    transition: transform 0.5s, box-shadow 0.5s;
+
+}
+.btn:hover{
+    border-bottom: 4px solid blue; 
+    
+}
+.btn:active{
+    transform: translateY(4px);
+    box-shadow: none;
+    background-color: white;
+}
+
+
+@media screen and (max-width: 840px) {
+    .benzImg{
+        right: -20vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .benzImg{
+        right: -35vw;
+        height: 85vh;
+    }
+
+    .introContent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+}
+

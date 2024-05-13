@@ -15,10 +15,13 @@ export const Navbar = () => {
           <Link className="desktopMenuListItem">Portfolio</Link>
           <Link className="desktopMenuListItem">Clients</Link>
         </div>
-        <button className="desktopMenuButton">
-            <img src={emailImg} alt="" className="desktopMenuImg" />
-            Contact Me
-        </button>
+
+        <Link>
+          <button className="desktopMenuButton">
+              <img src={emailImg} alt="" className="desktopMenuImg" />
+              Contact Me
+          </button>
+        </Link>
     </nav>
 )
 }
