@@ -10,7 +10,7 @@ export const Intro = () => {
         <div className="introContent">
             <span className="hello">Hello, </span>
             <span className="introText">I'm <span className="introName">Benz </span><br /> Web Developer</span>
-            <p className="introPara">I'm that dude who loves to code <br /> ... //Turning ideas into reality</p>
+            <p className="introPara">I'm that dude who loves to code <br /><span className="introPara2"> ... //Turning ideas into reality</span></p>
           
             <Link>
                 <button className='btn'>

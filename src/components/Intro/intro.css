@@ -13,7 +13,7 @@
     position: absolute;
     z-index: -1;
     height: 100vh;
-    top: 0;
+    top: 1.5rem;
     right: 0;
     object-fit: cover;
 }
@@ -56,6 +56,10 @@
     font-weight: 100;
     letter-spacing: 1px;
     margin-top: 1rem ;
+}
+
+.introPara2{
+    font-size: x-large;
 }
 .emailImg{
     width: 3rem;
