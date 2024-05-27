@@ -1,7 +1,7 @@
 #skills{
     overflow: hidden;
     width: 100vw;
-    max-width: 65rem;
+    /* max-width: 65rem; */
     padding: auto auto;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    /* background: rgba(135, 135, 255, 0.404); */
+    background: rgba(68, 69, 70, 0.329);
 }
 
 .skillTitle{
@@ -29,27 +29,38 @@
 .skillBarContainer{
     margin: 1.5rem;
     width: 100vw;
-    max-width: 80%;
-    text-align: left;
-    /* display: flex;
-    flex-direction: column;
+    max-width: 65rem;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .skillBar{
     display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    margin: 1rem;
-    padding: 1.5rem 2rem;
-    background: rgb(50, 50, 50);
+    margin: .8rem;
+    padding: 10px;
+    /* background: rgb(50, 50, 50); */
     border-radius: 20px;
+    transition: all 1s cubic-bezier(0.175, 0.885, 0, 1);
 }
 
-.skillBar > p {
-    font-size: 1rem;
-    font-weight: 200;
+.skillBar > img{
+    width: 8rem;
+    height: auto;
+    object-fit: cover ;
+    max-width: 100%;
 }
+
+.skillBar:hover{
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05, 1.05);
+}
+
 
 @media screen and (max-width: 720px) {
     .skillBar > p{
@@ -63,12 +74,10 @@
 }
 
 @media screen and (max-width: 480px) {
-    .skillBar > p {
-        font-size: 3vw;
+    .skillBar > img {
+        width: 5rem;
     }    
-    .skillBar > h1{
-        font-size: 5vw;
-    }
+ 
 
     .skillDescription{
         max-width: 20rem;

@@ -9,7 +9,8 @@
 
 
 body{
-    background: rgb(30, 30, 30);
+    background: #151d2a;
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,16,54,1) 58%, rgba(61,166,187,1) 100%); */
     color: white;
     overflow: hidden;
     overflow-y: scroll;
