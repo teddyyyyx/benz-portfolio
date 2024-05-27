@@ -1,0 +1,73 @@
+
+.buttons-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+.resume-button a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #5271FF;
+    color: white;
+    border-radius: 2rem;
+
+}
+
+.resume-button{
+    width: 15rem;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+
+}
+
+.desktopMenuButton{
+    border: none;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    padding: 0 1rem 0 0;
+    height: 4rem;
+    width: 15rem;
+    cursor: pointer;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.desktopMenuButton:active, .resume-button:active{
+        transform: translateY(4px);
+        box-shadow: none;
+        background-color: white;
+}
+
+.desktopMenuButton:hover{
+    border-bottom: 4px solid blue; 
+}
+.resume-button:hover{
+    border-bottom: 4px solid white; 
+}
+
+.desktopMenuImg, .resume-button-img{
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    margin: 1rem;
+}
+
+.github-img{
+    width: 5rem;
+    object-fit: contain;
+}
+
+.linkedin-img{
+    object-fit: contain;
+    width: 4rem;
+    background-color: white;
+    padding: 2px;
+}

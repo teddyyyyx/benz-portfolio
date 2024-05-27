@@ -1,29 +1,25 @@
 import React from 'react';
 import './intro.css';
 import benzImg from '../../assets/benzImg.png';
-import githubImg from '../../assets/githubImg.png'
-import linkedinImg from '../../assets/linkedinImg.png'
-import {Link} from 'react-scroll';
-
-// import emailImg from '../../assets/email.png'
+import { IntroButtons } from './IntroButtons/IntroButtons';
 
 export const Intro = () => {
   return (
     <section id="intro">
-        <div className="introContent">
-            <span className="hello">Hello world, </span>
-            <span className="introText">I'm <span className="introName">Benz </span><br /> Web Developer</span>
-            <p className="introPara">I'm that dude who loves to code <br /><span className="introPara2"> ... //Turning ideas into reality</span></p>
-           
-            <div className='connectIconsContainer'>
-                <Link className='connectBtn' activeClass='active' to='contact' spy={true} smooth={true} duration={500} > 
-                    Connect with me!
-                </Link>
-
+        <div className='intro-name-container'>
+            <h1 className='intro-name'>Benz Samson Tagle</h1>
+            <p className='intro-bio'>{'< Web Developer && Designer />'}</p>
+    
+            <div className='intro-paragraph-container'>
+                <p>I am a <strong>Computer Science</strong> graduate specializing in <strong>Web Development</strong>, passionate about creating intuitive and responsive web applications that blend technical expertise with creative design.</p>
+                <br /> <br />
+                <p>“With proper fundamentals, <br /> Adapting to different techs are nothing but  a breeze”</p>
             </div>
         </div>
 
-        <img src={benzImg} alt="" className='benzImg'/>
+        <img src={benzImg} alt="" className='benz-img'/>
+
+        <IntroButtons/>
     </section>
 )
 }
