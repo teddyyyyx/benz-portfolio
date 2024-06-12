@@ -2,6 +2,10 @@
     --text-color-theme: rgba(231, 227, 227, 0.87);
     --main-color-theme: #151d2a;
     --container-color-theme: #5272ff1e;
+    --sub-color-theme: #299fff;
+    --text-hover-color: rgb(147, 181, 238);
+    --box-shadow-section: 0 25px 21px rgba(0, 0, 0, 0.2);
+    --padding-section: 8rem 10%;
 }
 
 *{
@@ -10,15 +14,30 @@
     box-sizing: border-box;
     text-decoration: none;
     background: transparent;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 body{
     background: var(--main-color-theme);
-    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,16,54,1) 58%, rgba(61,166,187,1) 100%); */
     color: white;
     overflow: hidden;
     overflow-y: scroll;
+    width: 100vw;
 }
 
+::-webkit-scrollbar{
+    width: .5rem;
+    scrollbar-gutter: stable both-edges;
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--container-color-theme);
+    }
+
+
+@supports (scrollbar-color: var(--container-color-theme)){
+    * {
+        scrollbar-color: var(--container-color-theme)  transparent;
+    }
+}
