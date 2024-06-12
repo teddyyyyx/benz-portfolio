@@ -26,20 +26,19 @@ export const Contact = () => {
        
   return (
       <section id="contact"> 
-        <h1 className='contactTitle'>Get in touch!</h1>
-        <span className='contactDescription'>Reach out for any queries! Fill the form below.</span>
-  
-        <form action="" className='contactForm' ref={form} onSubmit={sendEmail}>
-            <input type="text" className="name" placeholder='Your Name' name='name' required/>
-            <input type="email" className='email' placeholder='Enter Email' name='email' required/>
-            <textarea className='contactMessage' rows="5" placeholder='Your message' name="message" required></textarea>
-            <button className='submitBtn' type='submit' value="send">Submit</button>
-      
-            {/* <div className='links'>
-                <img src="" alt="" className="link" />
-            </div> */}
-        </form>
-  
-    </section>
+        <div className='contact-container'>
+        <div class="v-cut-section">
+         </div>
+          <h1 className='contactTitle'>Get in touch!</h1>
+          <span className='contactDescription'>Reach out for any queries! Fill the form below.</span>
+    
+          <form action="" className='contactForm' ref={form} onSubmit={sendEmail}>
+              <input type="text" className="name" placeholder='Your Name' name='name' required/>
+              <input type="email" className='email' placeholder='Enter Email' name='email' required/>
+              <textarea className='contactMessage' rows="5" placeholder='Your message' name="message" required></textarea>
+              <button className='submit-btn' type='submit' value="send">Submit</button>
+          </form>
+        </div>
+      </section>
   )
 }

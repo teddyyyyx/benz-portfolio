@@ -1,3 +1,9 @@
+:root{
+    --text-color-theme: rgba(231, 227, 227, 0.87);
+    --main-color-theme: #151d2a;
+    --container-color-theme: #5272ff1e;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -9,9 +15,10 @@
 
 
 body{
-    background: #151d2a;
+    background: var(--main-color-theme);
     /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,16,54,1) 58%, rgba(61,166,187,1) 100%); */
     color: white;
     overflow: hidden;
     overflow-y: scroll;
 }
+

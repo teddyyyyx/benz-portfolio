@@ -7,4 +7,5 @@
     justify-content: center;
     font-size: small;
     font-weight: 300;
+    color: var(--text-color-theme);
 }

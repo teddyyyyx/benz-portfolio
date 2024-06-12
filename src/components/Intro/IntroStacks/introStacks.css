@@ -1,0 +1,80 @@
+.stacks-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 4rem 0;
+
+}
+
+.stacks-imgs img{
+    object-fit: contain;
+    width: 5rem;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    opacity: 0;
+    filter: drop-shadow(7px 7px 12px #000000);
+    animation: slideIn 2s forwards;
+    transform: translateX(-100%);
+    transition: all 0.5s ease-in;    
+}
+
+.stacks-imgs > img:hover{
+  transform: scale(1.2);
+}
+.stacks-text{
+    font-size: 1.2rem;
+    animation: slideIn 1.5s forwards;
+    transform: translateX(-100%);
+}
+
+@keyframes slideIn {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Adding delays to each button */
+  .animated-button:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  
+  .animated-button:nth-child(2) {
+    animation-delay: 0.3s;
+  }
+  
+  .animated-button:nth-child(3) {
+    animation-delay: 0.5s;
+  }
+  
+  .animated-button:nth-child(4) {
+    animation-delay: 0.7s;
+  }
+
+  .hide{
+    display: none;
+  }
+
+  @media screen and (max-width: 760px) {
+      .stacks-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .stacks-imgs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .hide{
+        display: block;
+        font-size: 1.3rem;
+      }
+      .stacks-text{
+        display: none;
+      }
+  }

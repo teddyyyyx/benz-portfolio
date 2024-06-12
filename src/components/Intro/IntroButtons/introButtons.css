@@ -1,56 +1,73 @@
 
 .buttons-container{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 1rem;
 }
 
-
+.cs-btn{
+    display: flex;
+    gap: 2rem;
+}
+.glc-btn{
+    display: flex;
+    gap: 1rem;
+}
 
 .resume-button a{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #5271FF;
-    color: white;
+    background: linear-gradient(121.7deg, rgb(41, 116, 250) 22.9%, rgb(67, 212, 255) 69%);
+    color: var(--main-color-theme);
     border-radius: 2rem;
 
 }
 
 .resume-button{
-    width: 15rem;
+    max-width: 15rem;
+    min-width: 12rem;
     border: none;
     font-size: 1.2rem;
     border-radius: 2rem;
-
+    border-bottom: 5px solid transparent;
+    transition: border-color 0.3s;
 }
 
-.desktopMenuButton{
+.contact-me-button{
     border: none;
-    background: white;
+    background: linear-gradient(121.7deg, rgba(183, 183, 192, 0.664) 49%,  rgba(231, 227, 227, 0.87)  80%);
     display: flex;
     align-items: center;
+    color: var(--main-color-theme);
     justify-content: center;
     border-radius: 2rem;
+    border: 1px solid var(--container-color-theme);
     font-size: 1.2rem;
     padding: 0 1rem 0 0;
     height: 4rem;
-    width: 15rem;
+    max-width: 15rem;
+    min-width: 12rem;
     cursor: pointer;
-    transition: transform 0.5s, box-shadow 0.5s;
+    border-bottom: 5px solid transparent;
+    transition: border-color 0.3s;
 }
 
-.desktopMenuButton:active, .resume-button:active{
+.contact-me-button:active, .resume-button:active{
         transform: translateY(4px);
         box-shadow: none;
         background-color: white;
 }
 
-.desktopMenuButton:hover{
-    border-bottom: 4px solid blue; 
+.contact-me-button:hover{
+    border-bottom-color: var(--sub-color-theme);
+    filter: drop-shadow(7px 7px 12px #000000);
+
 }
 .resume-button:hover{
-    border-bottom: 4px solid white; 
+    border-bottom-color: var(--text-color-theme);
+    filter: drop-shadow(7px 7px 12px #000000);
 }
 
 .desktopMenuImg, .resume-button-img{
@@ -60,14 +77,116 @@
     margin: 1rem;
 }
 
-.github-img{
-    width: 5rem;
+.github-img, .linkedin-img, .call-img{
+    width: 4rem;
     object-fit: contain;
+    background-color: var(--text-color-theme);
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;    
 }
 
-.linkedin-img{
-    object-fit: contain;
-    width: 4rem;
-    background-color: white;
-    padding: 2px;
+.github-img:hover, .linkedin-img:hover, .call-img:hover{
+    /* background-color: var(--sub-color-theme); */
+    background: linear-gradient(111.7deg, rgb(41, 116, 250) 10%, rgb(67, 212, 255) 80%);
+    filter: drop-shadow(7px 7px 12px #000000);
+    transform: scale(1.08);
+}
+
+.glc-btn > *{
+    transition: 0.3s ease-in-out;    
+}
+.glc-btn > *:hover{
+    transform: scale(1.1);
+}
+
+
+.contact-me-button, .resume-button, .github-img, .linkedin-img, .call-img{
+    opacity: 0;
+    transform: translateX(100%);
+    animation: slideInFromRight 2s forwards;
+  
+}
+
+.phone-num {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 120%;
+    transform: translateY(-50%) translateX(10px); /* Start my phone num slightly to the right */
+    opacity: 0;
+    background-color: var(--container-color-theme);
+    color: var(--text-color-theme);
+    padding: 1rem 2rem;
+    border: 1px solid rgb(168, 168, 168);
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    white-space: nowrap;
+}
+
+.call-img-container {
+    position: relative;
+    display: inline-block;
+}
+
+.call-img:hover + .phone-num {
+    opacity: 1;
+    transform: translateY(-50%) translateX(0); /* Move tmy num o the original position */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+
+
+@keyframes slideInFromRight {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .animated-button:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  
+  .animated-button:nth-child(2) {
+    animation-delay: 0.3s;
+  }
+  
+  .animated-button:nth-child(3) {
+    animation-delay: 0.5s;
+  }
+  
+  .animated-button:nth-child(4) {
+    animation-delay: 0.7s;
+  }
+
+@media screen and (max-width: 820px ) {
+    .buttons-container{
+        display: block;
+    }
+    .glc-btn{
+        align-items: center;
+        justify-content: center;
+    }
+    .cs-btn{
+        flex-direction: column;
+        gap: .5rem;
+        margin-bottom: .5rem;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .phone-num {
+        top: 120%;
+        left: 50%;
+        transform: translate(-50%, 10px); /* Position below and center aligned */
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 2rem;
+    }
+
+    .call-img:hover + .phone-num {
+        transform: translate(-50%, 0); /* Move my num to the original position */
+    }
 }
