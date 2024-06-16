@@ -1,16 +1,41 @@
 #intro{
-    padding: var(--padding-section);
-    min-height: 85vh;
+    padding: 15% 12%;
+    /* height: 85vh; */
     box-shadow: var(--box-shadow-section);  
 }
 
+.benz-img{
+    position: absolute;
+    z-index: -1;
+    height: 50vh;
+    min-width: 40vh;
+    right: 12rem;
+    top: 16rem;
+    opacity: 0;
+    transform: translateX(100%);
+    animation: slideInFromRight 2.5s forwards;
+    filter: drop-shadow(13px 7px 12px #000000);
+}
+
+.intro-name-container{
+    animation: fadeIn 2.5s forwards;
+}
+
 .intro-name{
-    font-size: 4rem;
+    font-size: 6.5rem;
     cursor: default;
     background: linear-gradient(90deg, rgb(55, 143, 214) 0%, rgba(160,211,221,1) 45%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    font-family: "Caveat", cursive ;
+    margin: 0;
+    overflow-x: visible;
+
+    animation: titleAppear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    -moz-animation: titleApear linear;
 }
 
 .intro-name:hover{
@@ -19,9 +44,11 @@
 }
 
 .intro-bio{
-    font-size: 1.8rem;
-    color: var(--text-color-theme);    
-    margin-top: 1.5rem;
+    font-size: 2.5rem;
+    color: var(--text-color-theme);
+    margin: 0;
+    font-family: "Caveat", cursive ;
+
 }
 
 .intro-extra{
@@ -36,34 +63,23 @@
 .intro-extra > span{
     text-decoration: line-through   ;
 }
-.benz-img{
-    position: absolute;
-    z-index: -1;
-    height: 50vh;
-    min-width: 40vh;
-    right: 10rem;
-    top: 15rem;
-    opacity: 0;
-    transform: translateX(100%);
-    animation: slideInFromRight 2.5s forwards;
-    filter: drop-shadow(13px 7px 12px #000000);
-}
-
 
 .intro-description{
     width: 50%;
     margin: 2rem 0;
-    line-height: 1.5rem;
-    background: var(--container-color-theme);
-    padding: 1.5rem;
+    line-height: 1.8rem;
     font-size: 1.2rem;
+    font-weight: 100;
     border-radius: 1.8rem;
     color: var(--text-color-theme);
+    font-family: "Poppins", sans-serif;
+
+
 }
 
-.animate-title {
+/* .animate-title {
     animation: fadeIn 1.5s ease-in-out;
-  }
+  } */
 
 
 
@@ -93,7 +109,7 @@
     }
 }
 
-@media screen and (max-width: 815px) {
+@media screen and (max-width: 825px) {
     .intro-name-container{
         text-align: center;
     };
@@ -119,4 +135,3 @@
       transform: translateX(0);
     }
   }
-

@@ -4,20 +4,10 @@
   box-shadow: var(--box-shadow-section);
 }
 
-.about-title {
-  font-size: 3.5rem;
-  text-align: center;
-  margin-bottom: 5rem;
-  color: var(--text-color-theme);
-  background-clip: text;
-}
-
-.about-title:hover{
-  color: var(--text-hover-color);
-}
-
 .about-container{
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 2rem;
   box-sizing: border-box;
   background: linear-gradient(141.7deg, #5272ff1e  60%, rgba(129, 130, 145, 0.473) 89%);
@@ -25,6 +15,10 @@
   width: fit-content;
   margin: 5rem auto 0;  
   padding: 2rem;
+
+  animation: blur linear both;
+  animation-timeline: view();
+  animation-range: entry 20% cover 20%;
 }
 
 .about-info{
@@ -39,12 +33,18 @@
 
   .about-info span{
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 2rem;
     color: rgba(189, 189, 228, 0.493);
   }
   
   .about-info p{
     transition: transform 0.2s ease-in-out;
+    margin: 0;
+    font-size: 2rem;
+
+    animation: scaleText linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
   }
 
     .about-info p:hover{
@@ -67,6 +67,10 @@
     transition: transform 0.3s ease-in-out;    
     -webkit-user-drag: none;
     cursor: crosshair;
+
+    /* animation: scaleInFromLeft linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%; */
   }
   .about-img:hover{
     transform: scale(1.1);
@@ -74,19 +78,30 @@
   }
 
 .about-paragraph{
+  font-family: "Caveat", cursive;
   display: flex;
+  flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin-top: 5rem;
-  gap: 2rem;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   line-height: 2.6rem;
   background: linear-gradient(151.7deg, #9aaeffd0  25%, rgb(147, 159, 175) 69%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   transition: transform 0.2s ease;
+  margin-top: 5rem;
+}
+
+.about-paragraph p{
+  margin: 1rem;
+}
+
+.about-paragraph p:first-of-type(1){
+  animation: scaleInFromLeft linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
 }
 
 .about-paragraph:hover {
@@ -97,14 +112,13 @@
 }
 
 .about-hr{
-  margin: 5rem auto 0;
+  margin: 2rem auto;
   border: 0;
+  display: none;
   height: 2.5px;
   width: 50%;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0));
 }
-
-
 
 @media screen and (max-width: 1400px){
   .about-paragraph{
@@ -113,7 +127,7 @@
 }
 
 
-@media screen and (max-width: 777px) {
+@media screen and (max-width: 970px) {
   .about-container{
     flex-direction: column;
     align-items: center;
@@ -123,9 +137,13 @@
   .about-img{
     width: 50%;
   }
+
+  .about-hr{
+    display: block;
+  }
   .about-paragraph{
-    margin: 2rem 0;
-    font-size: 1.3rem;
+    font-size: 2rem;
+    padding: 0;
   }
 }
 

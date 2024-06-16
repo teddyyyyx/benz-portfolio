@@ -1,7 +1,7 @@
 .navbar{
     height: 5rem;
     width: 100vw;
-    padding: 4rem 10rem;
+    padding: 4rem 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,6 +26,7 @@
 .desktopMenuListItem{
     margin: 1rem;
     cursor: pointer;
+    font-size: 1.6rem;
     /* transition: .5s ease-in-out; */
     transition: transform 0.5s ease-in-out;
 }

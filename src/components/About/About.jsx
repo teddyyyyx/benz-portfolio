@@ -5,7 +5,7 @@ import devDudeImg from '../../../src/assets/Tagle.png'
 export const About = () => {
   return (
     <section id='about'>
-            <h1 className='about-title'>About Me</h1>
+            <h1 className='title'>About Me</h1>
 
         <div className='about-container'>
 
@@ -22,15 +22,21 @@ export const About = () => {
         </div>
         <hr className='about-hr'/>
 
-        <p className='about-paragraph'>
-            "Hey there! I'm Benz Samson Tagle, a passionate developer specializing in web development. 
-            I hold a degree in Computer Science from Bicol University,
-            where I cultivated my love for coding and technology. 
-            My journey in web development has been driven by a desire to create impactful, 
-            user-friendly web applications that solve real-world problems."
-            <br />
+        <div className='about-paragraph'>
+            <p>
+              "Hey there! I'm Benz Samson Tagle, a passionate developer specializing in web development. 
+              I hold a degree in Computer Science from Bicol University,
+              where I cultivated my love for coding and technology. 
+            </p>
+  
+            <p>
+              My journey in web development has been driven by a desire to create impactful, 
+              user-friendly web applications that solve real-world problems."
+            </p>
+            
+           <br />
             x
-        </p>
+        </div>
         
     </section>
   )

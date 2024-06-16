@@ -1,39 +1,39 @@
 #contact{
-    min-height: 90vh;
-    padding: var(--padding-section);
-    text-align: center;
+    min-height: 80vh;
+    background: linear-gradient(151.7deg, #5272ff1e  50%, rgba(129, 130, 145, 0.473) 69%);
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0;
+    position: relative;
+}
+
+#contact > div{
+    font-size: 1.5rem;
+    display: flex;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.contact-container{
-    /* background: rgba(68, 69, 70, 0.329); */
-    background: linear-gradient(151.7deg, #5272ff1e  50%, rgba(129, 130, 145, 0.473) 69%);
-
-}
-
 .contactTitle{
     color: var(--text-color-theme);
-    font-weight: 700;
-    font-size: 3.5rem;
-    padding-top: 3.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.contactTitle:hover{
-    color: rgb(147, 181, 238);
+    font-size: 6rem;
+    animation: titleAppear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    -moz-animation: titleApear linear;
 }
 
 .contactDescription{
-    padding: 1rem;
-    font-size: medium;
+    padding: 1rem 0 .5rem 0;
+    font-size: 1.5rem;
     font-weight: 300;
+    color: var(--text-color-theme);
 }
 
 .contactForm{
-    margin: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,7 +54,11 @@
 }
 
 .submit-btn{
-    padding: .5rem 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    height: 2rem;
     border-radius: 20rem;
     background-color: var(--text-color-theme);
     transition: transform 0.5s, box-shadow 0.5s;
@@ -69,11 +73,15 @@
         transform: translateY(4px);
         box-shadow: none;
         color: var(--text-color-theme);
-        background-color: var(--container-color-theme);
+        background-color: grey;
 }
 
-@media screen and (max-width: 650px) {
-    #contact{
-        margin: 2rem auto;
-    }    
+.extra{
+    position: absolute;
+    bottom: 1rem; 
+    right: 3rem;
+    z-index: 1000;
+    color: var(--text-color-theme);
+    font-size: 4rem;
+    /* font-family: "Poppins", sans-serif; */
 }

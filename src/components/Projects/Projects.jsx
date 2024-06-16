@@ -5,7 +5,7 @@ import testImg from '../../../src/assets/test-img.png'
 export const Projects = () => {
   return (
     <section id='projects'>
-      <h1 className='projects-title title'>Recent Projects</h1>
+      <h1 className=' title'>Recent Projects</h1>
 
 {/*  */}
 

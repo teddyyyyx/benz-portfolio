@@ -1,5 +1,5 @@
 :root{
-    --text-color-theme: rgba(231, 227, 227, 0.87);
+    --text-color-theme: #e7e3e3de;
     --main-color-theme: #151d2a;
     --container-color-theme: #5272ff1e;
     --sub-color-theme: #299fff;
@@ -8,15 +8,15 @@
     --padding-section: 8rem 10%;
 }
 
-*{
+
+
+html, *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
+    /* overflow-x: hidden; */
     background: transparent;
-    font-family: 'Montserrat', sans-serif;
 }
-
 
 body{
     background: var(--main-color-theme);
@@ -24,6 +24,9 @@ body{
     overflow: hidden;
     overflow-y: scroll;
     width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+    font-family: "Caveat", cursive ;
+
 }
 
 ::-webkit-scrollbar{
@@ -40,4 +43,105 @@ body{
     * {
         scrollbar-color: var(--container-color-theme)  transparent;
     }
+}
+
+@keyframes titleAppear {
+    from{
+        opacity: 0;
+        transform: scale(5);
+        color: var(--sub-color-theme);
+
+    }   
+    to{
+        opacity: 1;
+        transform: scale(1);
+        color: var(--text-color-theme);
+
+    }
+}
+
+@keyframes scaleInFromLeft {
+    from{
+        opacity: 0;
+        scale: 0.5;
+        transform: translateX(-100%);
+        filter: blur(5px);
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scaleInFromRight {
+    from{
+        opacity: 0;
+        scale: 0.5;
+        transform: translateX(100%);
+        filter: blur(5px);
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes blurScale {
+    from{
+        filter: blur(3px);
+        transform: scale(0.6);
+    }
+    to{
+        filter: none;
+        transform: scale(1);
+    }
+}
+
+@keyframes  blur {
+    from{
+        filter: blur(2px);
+    }
+    to{
+        filter: none;
+    }
+}
+
+@keyframes scaleText {
+    from{
+        transform: scale(3);
+        color: var(--container-color-theme);
+        filter: blur(1px);
+    }
+    to{
+        transform: scale(1);
+        color: var(--text-color-theme);
+        filter: blur(none);
+    }
+}
+
+/* Mozilla Keyframes */
+
+@-moz-keyframes titleAppear {
+    from{
+        opacity: 0;
+        -moz-transform: scale(3);
+        color: var(--sub-color-theme);
+
+    }   
+    to{
+        opacity: 1;
+        -moz-transform: scale(1);
+        color: var(--text-color-theme);
+
+    }
+}
+
+.title{
+    font-size: 5em;
+    text-align: center;
+    margin-bottom: 5rem;
+    color: var(--text-color-theme);
+    cursor: default;
 }

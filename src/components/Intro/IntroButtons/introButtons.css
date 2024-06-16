@@ -19,18 +19,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(121.7deg, rgb(41, 116, 250) 22.9%, rgb(67, 212, 255) 69%);
-    color: var(--main-color-theme);
+    color: var(--text-color-theme);
     border-radius: 2rem;
-
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .resume-button{
     max-width: 15rem;
     min-width: 12rem;
     border: none;
+    height: 4rem;
+    padding: 0 1rem 0 0;
     font-size: 1.2rem;
     border-radius: 2rem;
+    background: linear-gradient(121.7deg, rgb(41, 116, 250) 22.9%, rgb(67, 212, 255) 69%);
     border-bottom: 5px solid transparent;
     transition: border-color 0.3s;
 }
@@ -162,21 +165,6 @@
     animation-delay: 0.7s;
   }
 
-@media screen and (max-width: 820px ) {
-    .buttons-container{
-        display: block;
-    }
-    .glc-btn{
-        align-items: center;
-        justify-content: center;
-    }
-    .cs-btn{
-        flex-direction: column;
-        gap: .5rem;
-        margin-bottom: .5rem;
-    }
-}
-
 @media screen and (max-width: 1080px) {
     .phone-num {
         top: 120%;
@@ -188,5 +176,20 @@
 
     .call-img:hover + .phone-num {
         transform: translate(-50%, 0); /* Move my num to the original position */
+    }
+}
+
+@media screen and (max-width: 825px ) {
+    .buttons-container{
+        display: block;
+    }
+    .glc-btn{
+        align-items: center;
+        justify-content: center;
+    }
+    .cs-btn{
+        flex-direction: column;
+        gap: .5rem;
+        margin-bottom: .5rem;
     }
 }

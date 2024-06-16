@@ -23,7 +23,7 @@ import linuxImg from '../../assets/linux.png'
 export const Skills = () => {
   return (
     <section id='skills'>
-        <span className='skill-title'>Tools I use</span>
+        <h1 className='title'>Tools I use</h1>
 
         <div className='skill-grid'>
           <div className="main-stack-container">
