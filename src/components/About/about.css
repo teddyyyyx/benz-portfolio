@@ -40,7 +40,6 @@
     transition: transform 0.2s ease-in-out;
     margin: 0;
     font-size: clamp(1rem, 1.5vw, 1.5rem);
-
     animation: scaleText linear;
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
@@ -94,7 +93,7 @@
 }
 
 .about-paragraph p{
-  margin: 1rem;
+  margin: 0 10%;
 }
 
 .about-paragraph p:first-of-type(1){
