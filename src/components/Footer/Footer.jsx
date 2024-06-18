@@ -20,7 +20,7 @@ export const Footer = () => {
           </a>
         </div>
 
-        <h4 className='footer-email'>benztagle.dev@gmail.com</h4>
+        <p className='footer-email'>benztagle.dev@gmail.com</p>
     </footer>
   );
 };

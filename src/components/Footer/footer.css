@@ -32,6 +32,7 @@
 .footer-email{
     grid-area: 1 / 1 / 2 / 2;
     font-size: clamp(1rem, .8vw, 2rem);
+    font-weight: 400;
     
 }
 
