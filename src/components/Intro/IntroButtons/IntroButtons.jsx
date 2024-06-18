@@ -1,6 +1,4 @@
 import React from 'react'
-import emailImg from '../../../assets/email.png'
-import downloadImg from '../../../assets/downloadImg.png'
 import githubImg from '../../../assets/githubImg.png'
 import linkedinImg from '../../../assets/linkedinImg.png'
 import callImg from '../../../assets/callImg.png'
@@ -13,13 +11,14 @@ export const IntroButtons = () => {
             <button className="contact-me-button" onClick={() => {
                 document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
             }}>
-                <img src={emailImg} alt="" className="desktopMenuImg" />
+                <svg className="email-icon" xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px" fill="#111111"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>
                 Contact Me
             </button>
 
             <button className='resume-button'> 
                 <a href="/BenzTagle_resume.pdf">
-                <svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px" fill="#e7e3e3de"><path d="M160-80v-80h640v80H160Zm320-160L200-600h160v-280h240v280h160L480-240Zm0-130 116-150h-76v-280h-80v280h-76l116 150Zm0-150Z"/></svg>                Resume
+                <svg className='donwload-icon' xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg>
+                Resume
                 </a>
             </button>
        </div>

@@ -23,38 +23,35 @@
     border-radius: 2rem;
     text-decoration: none;
     font-weight: bold;
+    gap: .5rem;
+}
+
+.resume-button, .contact-me-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    max-width: 15rem;
+    min-width: 12rem;
+    border: none;
+    height: 4rem;
+    padding: 0 1rem 0 0;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    transition: border-color 0.3s;
+    border-bottom: 5px solid transparent;
 }
 
 .resume-button{
-    max-width: 15rem;
-    min-width: 12rem;
-    border: none;
-    height: 4rem;
-    padding: 0 1rem 0 0;
-    font-size: 1.2rem;
-    border-radius: 2rem;
     background: linear-gradient(121.7deg, rgb(41, 116, 250) 22.9%, rgb(67, 212, 255) 69%);
-    border-bottom: 5px solid transparent;
-    transition: border-color 0.3s;
 }
 
 .contact-me-button{
-    border: none;
     background: linear-gradient(121.7deg, rgba(183, 183, 192, 0.664) 49%,  rgba(231, 227, 227, 0.87)  80%);
-    display: flex;
-    align-items: center;
-    color: var(--main-color-theme);
-    justify-content: center;
-    border-radius: 2rem;
-    border: 1px solid var(--container-color-theme);
-    font-size: 1.2rem;
-    padding: 0 1rem 0 0;
-    height: 4rem;
-    max-width: 15rem;
-    min-width: 12rem;
-    cursor: pointer;
-    border-bottom: 5px solid transparent;
-    transition: border-color 0.3s;
+}
+
+.download-icon, .email-icon{
+    width: 3rem;;
 }
 
 .contact-me-button:active, .resume-button:active{
@@ -71,13 +68,6 @@
 .resume-button:hover{
     border-bottom-color: var(--text-color-theme);
     filter: drop-shadow(7px 7px 12px #000000);
-}
-
-.desktopMenuImg, .resume-button-img{
-    width: 2rem;
-    height: 2rem;
-    object-fit: cover;
-    margin: 1rem;
 }
 
 .github-img, .linkedin-img, .call-img{
