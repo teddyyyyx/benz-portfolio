@@ -25,7 +25,6 @@ body{
     overflow-y: scroll;
     width: 100vw;
     font-family: 'Montserrat', sans-serif;
-    /* font-family: "Caveat", cursive ; */
 }
 
 ::-webkit-scrollbar{
