@@ -179,7 +179,7 @@
     }
 }
 
-@media screen and (max-width: 825px ) {
+@media screen and (max-width: 865px ) {
     .buttons-container{
         display: block;
     }

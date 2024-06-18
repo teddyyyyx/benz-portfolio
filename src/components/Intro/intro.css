@@ -1,6 +1,5 @@
 #intro{
     padding: 15% 12%;
-    /* height: 85vh; */
     box-shadow: var(--box-shadow-section);  
 }
 
@@ -73,17 +72,8 @@
     border-radius: 1.8rem;
     color: var(--text-color-theme);
     font-family: "Poppins", sans-serif;
-
-
+    text-shadow: -2px 1px 10px rgba(134, 149, 250, 0.616);
 }
-
-/* .animate-title {
-    animation: fadeIn 1.5s ease-in-out;
-  } */
-
-
-
-
 
 @media screen and (max-width: 1250px) {
     .benz-img{
@@ -104,8 +94,9 @@
 
     .intro-description{
         width: 90%;
-        padding: 2rem;
+        margin: 3rem 0 1rem;
         text-align: center;
+        font-size: clamp(1rem, 1.5vw, 1.2rem);
     }
 }
 
