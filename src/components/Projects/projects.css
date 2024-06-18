@@ -9,14 +9,13 @@
 .projects-container {
     display: flex;
     gap: 3rem;
-    margin: 8rem 0;
+    margin: 5rem 0;
     justify-content: center;
     align-items: center;
 }
 
 .projects-container p {
     width: clamp(15rem, 30vw, 40rem);
-
     padding: 2rem 3rem;
     background: linear-gradient(121.7deg, #5272ff1e  50%, rgba(129, 130, 145, 0.473) 69%);
     border-radius: 1rem;
@@ -97,4 +96,5 @@
     .projects-container p{
         padding: 1rem;
     }
+ 
 }

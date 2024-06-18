@@ -4,8 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 0;
     position: relative;
+    padding: 5rem 0;
 }
 
 #contact > div{
@@ -82,6 +82,11 @@
     right: 3rem;
     z-index: 1000;
     color: var(--text-color-theme);
-    font-size: clamp(1rem, 1vw, 2rem);
-    /* font-family: "Poppins", sans-serif; */
+    font-size: clamp(.8rem, 1vw, 1.5rem);
+}
+
+@media screen and (max-width:800px) {
+    .extra{
+        right: unset;
+    } 
 }
