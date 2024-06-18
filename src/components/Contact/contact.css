@@ -28,7 +28,7 @@
 
 .contactDescription{
     padding: 1rem 0 .5rem 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 300;
     color: var(--text-color-theme);
 }
@@ -82,6 +82,6 @@
     right: 3rem;
     z-index: 1000;
     color: var(--text-color-theme);
-    font-size: 4rem;
+    font-size: clamp(1rem, 1vw, 2rem);
     /* font-family: "Poppins", sans-serif; */
 }

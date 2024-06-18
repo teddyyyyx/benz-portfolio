@@ -15,7 +15,7 @@ export const About = () => {
                 <p><span>Name:</span> Benz Samson Tagle</p>
                 <p><span>Education: </span> Bachelor of Science in Computer Science</p>
                 <p><span>School: </span> Bicol University</p>
-                <p><span>Email:</span> benztagle123@gmail.com</p>
+                <p><span>Email:</span> benztagle.dev@gmail.com</p>
                 <p><span>Contact #:</span>  095  1621 9997</p>
                 <p><span>GitHub:</span>  github.com/teddyyyyx</p>
             </div>

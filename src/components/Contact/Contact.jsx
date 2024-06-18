@@ -38,9 +38,9 @@ export const Contact = () => {
             </form>
           </div>
 
-          <div className='extra'>
+          <p className='extra'>
             Website made with React
-          </div>
+          </p>
       </section>
   )
 }

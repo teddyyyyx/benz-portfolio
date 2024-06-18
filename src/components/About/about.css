@@ -26,21 +26,20 @@
   flex-direction: column;
   justify-content: center;
   border-radius: 2rem;
-  font-size: 1.3rem;
   color: var(--text-color-theme);
   line-height: 2.5rem;
 }
 
   .about-info span{
     font-weight: 600;
-    font-size: 2rem;
+    /* font-size: 1.5rem; */
     color: rgba(189, 189, 228, 0.493);
   }
   
   .about-info p{
     transition: transform 0.2s ease-in-out;
     margin: 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
 
     animation: scaleText linear;
     animation-timeline: view();
