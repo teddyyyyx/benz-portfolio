@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/benz-portfolio/static/css/main.182b74db.css",
+    "main.js": "/benz-portfolio/static/js/main.921b56ab.js",
+    "static/media/hanzy-style_prj1.png": "/benz-portfolio/static/media/hanzy-style_prj1.e1fdeda2b6c0d36e0364.png",
+    "static/media/test-img.png": "/benz-portfolio/static/media/test-img.9bfe887995c846c46ecb.png",
+    "static/media/Tagle.png": "/benz-portfolio/static/media/Tagle.5b3817db8fb32b7b6042.png",
+    "static/media/benzImg.png": "/benz-portfolio/static/media/benzImg.052660ca784f2c1c96cc.png",
+    "static/media/callImg.png": "/benz-portfolio/static/media/callImg.6598dd0405c1796e7177.png",
+    "static/media/githubImg.png": "/benz-portfolio/static/media/githubImg.e42c44f18fda8d8dff01.png",
+    "static/media/canva.png": "/benz-portfolio/static/media/canva.960c7856f2c8498a2670.png",
+    "static/media/sass.png": "/benz-portfolio/static/media/sass.454c435a92c72c8f31fe.png",
+    "static/media/react.png": "/benz-portfolio/static/media/react.d42e69599197f5dad927.png",
+    "static/media/linkedinImg.png": "/benz-portfolio/static/media/linkedinImg.8efd84b6500bf9f0eecf.png",
+    "static/media/gimp.png": "/benz-portfolio/static/media/gimp.7402ed3d38f16559a3ee.png",
+    "static/media/linux.png": "/benz-portfolio/static/media/linux.3ae76ce86aacc95a28a6.png",
+    "static/media/c.png": "/benz-portfolio/static/media/c.fd83b27aaeb6def6485a.png",
+    "static/media/html.png": "/benz-portfolio/static/media/html.ba6bf8aebb48f0d2f2ca.png",
+    "static/media/git.png": "/benz-portfolio/static/media/git.97dde40c786774e71f23.png",
+    "static/media/css.png": "/benz-portfolio/static/media/css.52756dbe59245c38051a.png",
+    "static/media/php.png": "/benz-portfolio/static/media/php.c759521edf1d13737695.png",
+    "static/media/photoshop.png": "/benz-portfolio/static/media/photoshop.844ec42f71f47b3e2370.png",
+    "static/media/bootstrap.png": "/benz-portfolio/static/media/bootstrap.a2ad0f43d731b5147ad4.png",
+    "static/media/github.png": "/benz-portfolio/static/media/github.0fae085f893eaca571d5.png",
+    "static/media/figma.png": "/benz-portfolio/static/media/figma.f8031506eed8274d0190.png",
+    "static/media/stackoverflow.png": "/benz-portfolio/static/media/stackoverflow.d638d40ff41462d39d6e.png",
+    "static/media/javascript.png": "/benz-portfolio/static/media/javascript.01b76f22ebd450eff363.png",
+    "static/media/illustrator.png": "/benz-portfolio/static/media/illustrator.b8bff4b8c210f43024a4.png",
+    "static/media/tailwind.png": "/benz-portfolio/static/media/tailwind.692e71fc0ef28ce06520.png",
+    "static/media/burgerImg.png": "/benz-portfolio/static/media/burgerImg.bafa886a4a3a9b6804b9.png",
+    "index.html": "/benz-portfolio/index.html",
+    "main.182b74db.css.map": "/benz-portfolio/static/css/main.182b74db.css.map",
+    "main.921b56ab.js.map": "/benz-portfolio/static/js/main.921b56ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.182b74db.css",
+    "static/js/main.921b56ab.js"
+  ]
+}
