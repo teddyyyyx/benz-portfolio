@@ -182,4 +182,8 @@
         gap: .5rem;
         margin-bottom: .5rem;
     }
+
+    .contact-me-button, .resume-button, .github-img, .linkedin-img, .call-img{
+        animation: fadeIn 2.5s forwards;
+    }
 }
