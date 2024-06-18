@@ -28,7 +28,7 @@ body{
 }
 
 .title{
-    font-size: 5em;
+    font-size: clamp(3.5rem, 2vw, 5rem);
     text-align: center;
     margin-bottom: 3rem;
     color: var(--text-color-theme);
