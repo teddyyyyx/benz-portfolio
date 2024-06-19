@@ -113,6 +113,10 @@
         padding: 1rem;
         border-radius: 2rem;
     }
+    
+    #skills{
+        padding: 5rem 5% 2rem;
+    }
 
     .skill-stack-container-1 p{
         display: none;
