@@ -10,7 +10,7 @@ export const Intro = () => {
             <h1 className='intro-name animate-title'>Benz Samson Tagle</h1>
             <p className="intro-bio animate-title">Web Developer && Designer</p>
             <p className='intro-description animate-title'>
-                Crafting ideas into reality, with a dash of code and a splash of imagination, aided with little bit of googling — one keystroke at a time
+                Crafting ideas into reality, with a dash of code and a splash of imagination, aided with a little bit of stackoverflow — one keystroke at a time
                 </p>
 
         </div>

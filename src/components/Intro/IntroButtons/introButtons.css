@@ -70,7 +70,7 @@
     filter: drop-shadow(7px 7px 12px #000000);
 }
 
-.github-img, .linkedin-img, .call-img{
+.github-img, .linkedin-img{
     width: 4rem;
     object-fit: contain;
     background-color: var(--text-color-theme);
@@ -79,7 +79,7 @@
     transition: 0.2s ease-in-out;    
 }
 
-.github-img:hover, .linkedin-img:hover, .call-img:hover{
+.github-img:hover, .linkedin-img:hover{
     /* background-color: var(--sub-color-theme); */
     background: linear-gradient(111.7deg, rgb(41, 116, 250) 10%, rgb(67, 212, 255) 80%);
     filter: drop-shadow(7px 7px 12px #000000);
@@ -94,43 +94,12 @@
 }
 
 
-.contact-me-button, .resume-button, .github-img, .linkedin-img, .call-img{
+.contact-me-button, .resume-button, .github-img, .linkedin-img{
     opacity: 0;
     transform: translateX(100%);
     animation: slideInFromRight 2s forwards;
   
 }
-
-.phone-num {
-    display: inline-block;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    left: 120%;
-    transform: translateY(-50%) translateX(10px); /* Start my phone num slightly to the right */
-    opacity: 0;
-    background-color: var(--container-color-theme);
-    color: var(--text-color-theme);
-    padding: 1rem 2rem;
-    border: 1px solid rgb(168, 168, 168);
-    border-top-right-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    white-space: nowrap;
-}
-
-.call-img-container {
-    position: relative;
-    display: inline-block;
-}
-
-.call-img:hover + .phone-num {
-    opacity: 1;
-    transform: translateY(-50%) translateX(0); /* Move tmy num o the original position */
-    transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-
 
 @keyframes slideInFromRight {
     to {
@@ -155,20 +124,6 @@
     animation-delay: 0.7s;
   }
 
-@media screen and (max-width: 1080px) {
-    .phone-num {
-        top: 120%;
-        left: 50%;
-        transform: translate(-50%, 10px); /* Position below and center aligned */
-        border-top-right-radius: 0;
-        border-bottom-left-radius: 2rem;
-    }
-
-    .call-img:hover + .phone-num {
-        transform: translate(-50%, 0); /* Move my num to the original position */
-    }
-}
-
 @media screen and (max-width: 865px ) {
     .buttons-container{
         display: block;
@@ -183,7 +138,7 @@
         margin-bottom: .5rem;
     }
 
-    .contact-me-button, .resume-button, .github-img, .linkedin-img, .call-img{
+    .contact-me-button, .resume-button, .github-img, .linkedin-img{
         animation: fadeIn 2.5s forwards;
     }
 }

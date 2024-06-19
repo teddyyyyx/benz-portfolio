@@ -1,7 +1,6 @@
 import React from 'react'
 import githubImg from '../../../assets/githubImg.png'
 import linkedinImg from '../../../assets/linkedinImg.png'
-import callImg from '../../../assets/callImg.png'
 import '../IntroButtons/introButtons.css'
 
 export const IntroButtons = () => {
@@ -31,11 +30,6 @@ export const IntroButtons = () => {
             <a href="https://www.linkedin.com/in/benz-tagle-506475248/" target='_blank' rel='noreferrer'>
                 <img src={linkedinImg} alt="" className='linkedin-img'/>
             </a>
-
-            <div className='call-img-container'>
-                <img src={callImg} alt="" className='call-img'/>
-                <span className='phone-num'>+63 951 621 9997</span>
-            </div>
         </div>
     
     </div>
