@@ -1,6 +1,7 @@
 #intro{
     padding: 15% 12%;
     box-shadow: var(--box-shadow-section);  
+    min-height: 85vh;
 }
 
 .benz-img{
@@ -21,20 +22,19 @@
 }
 
 .intro-name{
-    font-size: 6.5rem;
+    font-size: 4.5rem;
     cursor: default;
     background: linear-gradient(90deg, rgb(55, 143, 214) 0%, rgba(160,211,221,1) 45%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-family: "Caveat", cursive ;
     margin: 0;
     overflow-x: visible;
-
     animation: titleAppear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
     -moz-animation: titleApear linear;
+    /* font-family: "Caveat", cursive ; */
 }
 
 .intro-name:hover{
@@ -43,17 +43,10 @@
 }
 
 .intro-bio{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--text-color-theme);
     margin: 0;
-    font-family: "Caveat", cursive ;
-
-}
-
-.intro-extra{
-    font-size: .8rem;
-    color: rgba(182, 182, 182, 0.185);
-    transition: transform 0.3s ease-in;    
+    /* font-family: "Caveat", cursive ; */
 }
 
 .intro-extra:hover{
@@ -66,13 +59,13 @@
 .intro-description{
     width: 50%;
     margin: 2rem 0;
-    line-height: 1.8rem;
+    /* line-height: 1.8rem; */
     font-size: 1.2rem;
-    font-weight: 100;
+    font-weight: 400;
     border-radius: 1.8rem;
     color: var(--text-color-theme);
-    font-family: "Poppins", sans-serif;
-    text-shadow: -2px 1px 10px rgba(134, 149, 250, 0.616);
+    /* font-family: "Poppins", sans-serif; */
+    /* text-shadow: -2px 1px 10px rgba(134, 149, 250, 0.616); */
 }
 
 @media screen and (max-width: 1250px) {
@@ -85,6 +78,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    #intro{
+        padding: 0 10% 20%;
     }
 
     .intro-name-container{
@@ -105,12 +102,7 @@
         text-align: center;
     };
 
-    #intro{
-        padding: 0rem 1rem 5rem 0;
-    }
-
 }
-
 
 @keyframes fadeIn {
     0% {
@@ -123,10 +115,3 @@
     }
   }
 
-
-@keyframes slideInFromRight {
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }

@@ -67,6 +67,15 @@ body{
     }
 }
 
+
+@keyframes slideInFromRight {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+
 @keyframes scaleInFromLeft {
     from{
         opacity: 0;
