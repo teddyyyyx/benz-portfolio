@@ -75,7 +75,7 @@
     }    
     .navbar{
         display: flex;
-        padding: 1.2rem 5%;
+        height: 5rem;
         justify-content: space-between;
     }
     .desktopMenu{
