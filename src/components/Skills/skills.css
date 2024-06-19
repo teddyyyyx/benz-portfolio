@@ -80,6 +80,10 @@
     object-fit: contain;
 }
 
+.skill-stack-container-1 svg{
+    width: 90%;
+}
+
 .skill-stack-container-1 p{
     background-color: var(--container-color-theme);
     padding: 0.3rem 1.5rem;
@@ -113,7 +117,7 @@
         padding: 1rem;
         border-radius: 2rem;
     }
-    
+
     #skills{
         padding: 5rem 5% 2rem;
     }
