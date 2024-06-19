@@ -1,6 +1,7 @@
 .navbar{
     width: 100vw;
-    padding: 1.5rem 5%;
+    padding: 0 5%;
+    height: 7rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,7 +15,7 @@
 }
 
 .logo{
-    height: 4rem;
+    height: 3.5rem;
     object-fit: cover;
     -webkit-user-drag: none;
     user-select: none;
