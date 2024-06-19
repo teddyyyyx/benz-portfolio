@@ -114,6 +114,9 @@
         border-radius: 2rem;
     }
 
+    .skill-stack-container-1 p{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -121,19 +124,18 @@
     .skill-stack-container-1 img{
         width: 3rem;
     }
-    
-    .skill-title{
-        font-size: 3rem;
-        margin-bottom: 2rem;
+    .main-stack-container{
+        gap: 1rem;
     }
 
     .main-stack-container div{
-        width: 6rem;
+        width: 7rem;
     }
     .main-stack-container p{
         padding: 0.5rem 1rem;
     }
-    .skill-stack-container-1 p{
-        display: none;
+
+    .skill-stack-container-1{
+        gap: 2rem;
     }
 }
