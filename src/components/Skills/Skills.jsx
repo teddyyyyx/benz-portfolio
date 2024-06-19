@@ -11,7 +11,6 @@ import bootstrap from '../../assets/bootstrap.png'
 import figmaImg from '../../assets/figma.png'
 import gitImg from '../../assets/git.png'
 import githubImg from '../../assets/github.png'
-import tailwindImg from '../../assets/tailwind.png'
 import photoshopImg from '../../assets/photoshop.png'
 import illustratorImg from '../../assets/illustrator.png'
 import gimpImg from '../../assets/gimp.png'
@@ -82,11 +81,6 @@ export const Skills = () => {
             <div>
               <img src={githubImg} alt="" />
               <p>Github</p>
-            </div>
-
-            <div>
-              <img src={tailwindImg} alt="" />
-              <p>Tailwind</p>
             </div>
 
             <div>
