@@ -80,10 +80,6 @@
         align-items: center;
     }
 
-    #intro{
-        padding: 0 10% 20%;
-    }
-
     .intro-name-container{
         margin-top: 2rem;
         text-align: center;
@@ -104,6 +100,12 @@
 
     .intro-name{
         margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #intro{
+        padding: 0 10% 20%;
     }
 }
 
