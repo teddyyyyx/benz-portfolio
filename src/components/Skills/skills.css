@@ -46,6 +46,7 @@
     padding: 0.5rem 2rem;
     border-radius: 2rem;
     font-weight: 500;
+    font-size: clamp(.8rem, 2vw,1rem);
 }
 
 .main-stack-container img {
@@ -125,15 +126,13 @@
         font-size: 3rem;
         margin-bottom: 2rem;
     }
-    .skill-stack-container-1 p{
-        padding: 0.3rem 1rem;
-        font-size: 0.6rem;
-    }
 
     .main-stack-container div{
-        width: 9rem;
+        width: 6rem;
     }
-
+    .main-stack-container p{
+        padding: 0.5rem 1rem;
+    }
     .skill-stack-container-1 p{
         display: none;
     }

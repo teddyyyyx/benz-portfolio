@@ -19,7 +19,7 @@
 
 .contactTitle{
     color: var(--text-color-theme);
-    font-size: 6rem;
+    font-size: clamp(4rem, 5vw, 5rem);
     animation: titleAppear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
@@ -28,7 +28,7 @@
 
 .contactDescription{
     padding: 1rem 0 .5rem 0;
-    font-size: 1.2rem;
+    font-size: clamp(1rem, 2vw, 1.2rem);
     font-weight: 300;
     color: var(--text-color-theme);
 }
