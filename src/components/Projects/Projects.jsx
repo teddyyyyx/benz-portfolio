@@ -9,7 +9,6 @@ export const Projects = () => {
     <section id='projects'>
       <h1 className='title'>Recent Projects</h1>
 
-{/*  */}
 
       <div className='projects-container'>
         <a href="https://teddyyyyx.github.io/hanzy-stylez-react/" target='__blank'>
