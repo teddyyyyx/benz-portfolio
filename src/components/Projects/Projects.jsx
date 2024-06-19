@@ -46,7 +46,6 @@ export const Projects = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit quaerat saepe optio tempora architecto non cum reiciendis nam nostrum minima beatae cupiditate cumque, voluptatem vero doloribus! Optio, soluta est?
           </div>
       </div>
-      <hr className='projects-hr'/>
     </section>
   )
 
