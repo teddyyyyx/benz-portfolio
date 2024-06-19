@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/benz-portfolio/static/css/main.bdbcd201.css",
-    "main.js": "/benz-portfolio/static/js/main.3e88427f.js",
+    "main.css": "/benz-portfolio/static/css/main.0ab3563b.css",
+    "main.js": "/benz-portfolio/static/js/main.abf75371.js",
     "static/media/hanzy-style_prj1.png": "/benz-portfolio/static/media/hanzy-style_prj1.e1fdeda2b6c0d36e0364.png",
     "static/media/test-img.png": "/benz-portfolio/static/media/test-img.9bfe887995c846c46ecb.png",
     "static/media/Tagle.png": "/benz-portfolio/static/media/Tagle.5b3817db8fb32b7b6042.png",
     "static/media/benzImg.png": "/benz-portfolio/static/media/benzImg.052660ca784f2c1c96cc.png",
-    "static/media/callImg.png": "/benz-portfolio/static/media/callImg.6598dd0405c1796e7177.png",
     "static/media/githubImg.png": "/benz-portfolio/static/media/githubImg.e42c44f18fda8d8dff01.png",
     "static/media/canva.png": "/benz-portfolio/static/media/canva.960c7856f2c8498a2670.png",
     "static/media/sass.png": "/benz-portfolio/static/media/sass.454c435a92c72c8f31fe.png",
@@ -26,14 +25,13 @@
     "static/media/stackoverflow.png": "/benz-portfolio/static/media/stackoverflow.d638d40ff41462d39d6e.png",
     "static/media/javascript.png": "/benz-portfolio/static/media/javascript.01b76f22ebd450eff363.png",
     "static/media/illustrator.png": "/benz-portfolio/static/media/illustrator.b8bff4b8c210f43024a4.png",
-    "static/media/tailwind.png": "/benz-portfolio/static/media/tailwind.692e71fc0ef28ce06520.png",
     "static/media/burgerImg.png": "/benz-portfolio/static/media/burgerImg.bafa886a4a3a9b6804b9.png",
     "index.html": "/benz-portfolio/index.html",
-    "main.bdbcd201.css.map": "/benz-portfolio/static/css/main.bdbcd201.css.map",
-    "main.3e88427f.js.map": "/benz-portfolio/static/js/main.3e88427f.js.map"
+    "main.0ab3563b.css.map": "/benz-portfolio/static/css/main.0ab3563b.css.map",
+    "main.abf75371.js.map": "/benz-portfolio/static/js/main.abf75371.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdbcd201.css",
-    "static/js/main.3e88427f.js"
+    "static/css/main.0ab3563b.css",
+    "static/js/main.abf75371.js"
   ]
 }
