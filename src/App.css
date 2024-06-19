@@ -1,0 +1,146 @@
+:root{
+    --text-color-theme: #e7e3e3de;
+    --main-color-theme: #151d2a;
+    --container-color-theme: #5272ff1e;
+    --sub-color-theme: #299fff;
+    --text-hover-color: rgb(147, 181, 238);
+    --box-shadow-section: 0 25px 21px rgba(0, 0, 0, 0.2);
+    --padding-section: 8rem 10%;
+}
+
+
+
+html, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    background: transparent;
+}
+
+body{
+    background: var(--main-color-theme);
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+    font-size: clamp(3.5rem, 5vw, 4.5rem);
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--sub-color-theme);
+    cursor: default;
+}
+
+
+::-webkit-scrollbar{
+    width: .5rem;
+    scrollbar-gutter: stable both-edges;
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--container-color-theme);
+    }
+
+
+@supports (scrollbar-color: var(--container-color-theme)){
+    * {
+        scrollbar-color: var(--container-color-theme)  transparent;
+    }
+}
+
+@keyframes titleAppear {
+    from{
+        opacity: 0;
+        transform: scale(5);
+        color: var(--sub-color-theme);
+
+    }   
+    to{
+        opacity: 1;
+        transform: scale(1);
+        color: var(--text-color-theme);
+
+    }
+}
+
+@keyframes scaleInFromLeft {
+    from{
+        opacity: 0;
+        scale: 0.5;
+        transform: translateX(-100%);
+        filter: blur(5px);
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scaleInFromRight {
+    from{
+        opacity: 0;
+        scale: 0.5;
+        transform: translateX(100%);
+        filter: blur(5px);
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes blurScale {
+    from{
+        filter: blur(3px);
+        transform: scale(0.6);
+    }
+    to{
+        filter: none;
+        transform: scale(1);
+    }
+}
+
+@keyframes  blur {
+    from{
+        filter: blur(2px);
+    }
+    to{
+        filter: none;
+    }
+}
+
+@keyframes scaleText {
+    from{
+        transform: scale(3);
+        color: var(--container-color-theme);
+        filter: blur(1px);
+    }
+    to{
+        transform: scale(1);
+        color: var(--text-color-theme);
+        filter: blur(none);
+    }
+}
+
+/* Mozilla Keyframes */
+
+@-moz-keyframes titleAppear {
+    from{
+        opacity: 0;
+        -moz-transform: scale(3);
+        color: var(--sub-color-theme);
+
+    }   
+    to{
+        opacity: 1;
+        -moz-transform: scale(1);
+        color: var(--text-color-theme);
+
+    }
+}

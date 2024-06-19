@@ -2,7 +2,6 @@ import React from 'react';
 import './intro.css';
 import benzImg from '../../assets/benzImg.png';
 import { IntroButtons } from './IntroButtons/IntroButtons';
-import { IntroStacks } from './IntroStacks/IntroStacks';
 
 export const Intro = () => {
   return (
@@ -24,7 +23,6 @@ export const Intro = () => {
             <img src={benzImg} alt="" className='benz-img'/>
             <IntroButtons/>
 
-        {/* <IntroStacks/> */}
     </section>
 )
 }
