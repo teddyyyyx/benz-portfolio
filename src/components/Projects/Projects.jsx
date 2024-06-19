@@ -15,18 +15,22 @@ export const Projects = () => {
           <img src={prj1} alt="" className='project-img'/>
         </a>
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit quaerat saepe optio tempora architecto non cum reiciendis nam nostrum minima beatae cupiditate cumque, voluptatem vero doloribus! Optio, soluta est?
-          </p>
+          <div>
+            <h1>Hanzy Styles</h1>
+            Developed the Hanzy Stylez e-commerce website with ReactJS, 
+            crafting dynamic and responsive user interfaces for all modern devices. 
+            Applied my frontend expertise to ensure optimal performance and user experience."
+          </div>
       </div>
       <hr className='projects-hr'/>
 
 {/*  */}
 
       <div className='projects-container col-reverse'>
-        <p>
+        <div>
+          <h1>Project 2</h1>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit quaerat saepe optio tempora architecto non cum reiciendis nam nostrum minima beatae cupiditate cumque, voluptatem vero doloribus! Optio, soluta est?
-        </p>
+        </div>
 
         <img src={testImg} alt="" className='project-img1'/>
       </div>
@@ -37,21 +41,12 @@ export const Projects = () => {
       <div className='projects-container'>
         <img src={testImg} alt="" className='project-img'/>
 
-          <p>
+          <div>
+            <h1>Project 3</h1>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit quaerat saepe optio tempora architecto non cum reiciendis nam nostrum minima beatae cupiditate cumque, voluptatem vero doloribus! Optio, soluta est?
-          </p>
+          </div>
       </div>
       <hr className='projects-hr'/>
-      
-{/*  */}
-
-      <div className='projects-container col-reverse'>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit quaerat saepe optio tempora architecto non cum reiciendis nam nostrum minima beatae cupiditate cumque, voluptatem vero doloribus! Optio, soluta est?
-        </p>
-
-        <img src={testImg} alt="" className='project-img1'/>
-      </div>
     </section>
   )
 
