@@ -1,7 +1,7 @@
 #intro{
     padding: 15% 12%;
     box-shadow: var(--box-shadow-section);  
-    min-height: 85vh;
+    min-height: 65vh;
 }
 
 .benz-img{
@@ -22,7 +22,7 @@
 }
 
 .intro-name{
-    font-size: 4.5rem;
+    font-size: clamp(3.5rem, 5vw, 4.5rem);
     cursor: default;
     background: linear-gradient(90deg, rgb(55, 143, 214) 0%, rgba(160,211,221,1) 45%);
     -webkit-background-clip: text;
@@ -43,7 +43,7 @@
 }
 
 .intro-bio{
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 3vw, 2rem);
     color: var(--text-color-theme);
     margin: 0;
     /* font-family: "Caveat", cursive ; */
@@ -102,6 +102,9 @@
         text-align: center;
     };
 
+    .intro-name{
+        margin-bottom: 1rem;
+    }
 }
 
 @keyframes fadeIn {
