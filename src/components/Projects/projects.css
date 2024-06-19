@@ -34,6 +34,10 @@
         margin-bottom: 1rem;
     }
 
+#projects .projects-container:first-of-type{
+    margin-top: 0;
+}
+
 .project-img, .project-img1{
     width: 50vw;   
     max-width: 45rem;
