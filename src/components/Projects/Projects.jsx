@@ -3,6 +3,7 @@ import './projects.css'
 import testImg from '../../assets/test-img.png'
 import prj1 from '../../assets/project-imgs/hanzy-style_prj1.png'
 import prj2 from '../../assets/project-imgs/HoneyFlix_prj2.png'
+import prj3 from '../../assets/project-imgs/Benz_prj3.png'
 
 
 export const Projects = () => {
@@ -51,11 +52,15 @@ export const Projects = () => {
 {/*  */}
 
       <div className='projects-container'>
-        <img src={testImg} alt="" className='project-img'/>
+        <img src={prj3} alt="" className='project-img'/>
 
           <div>
-            <h1>Project 3</h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit quaerat saepe optio tempora architecto non cum reiciendis nam nostrum minima beatae cupiditate cumque, voluptatem vero doloribus! Optio, soluta est?
+            <h1>Personal Website</h1>
+            I built my personal portfolio website using ReactJS, showcasing 
+            my expertise as a web developer. I extensively utilized advanced 
+            React features for efficient state management and handling of side effects. 
+            This approach allowed me to create a dynamic and interactive user experience,
+            emphasizing modularity and code reusability.
           </div>
       </div>
     </section>
