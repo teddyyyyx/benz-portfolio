@@ -69,7 +69,7 @@
     color: var(--text-color-theme);
 }
 
-.visit-site-right, .visit-site-right{
+.visit-site-right, .visit-site-left{
     font-size: clamp(.8rem, 2vw, 1rem);
 }
 
