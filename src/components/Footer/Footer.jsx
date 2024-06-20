@@ -4,7 +4,7 @@ import './footer.css';
 export const Footer = () => {
   return (
     <footer className='footer'> 
-        <h3 className='footer-name'> -Benz Samson Tagle- </h3>
+        {/* <h3 className='footer-name'> -Benz Samson Tagle- </h3> */}
      
         <div className='footer-icon-container'>
           <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer">
