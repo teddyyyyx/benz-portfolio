@@ -104,7 +104,7 @@ body{
 @keyframes blurScale {
     from{
         filter: blur(3px);
-        transform: scale(0.6);
+        transform: scale(0.5);
     }
     to{
         filter: none;
