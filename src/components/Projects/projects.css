@@ -25,7 +25,7 @@
     animation-timeline: view();
     animation-range: entry 50% cover 20%;
 }
-    .projects-container div:hover{
+    .projects-container > div:hover{
         transform: scale(1.01);
         color: var(--text-hover-color);
     }   
@@ -41,16 +41,21 @@
 .project-img, .project-img1{
     width: 50vw;   
     max-width: 45rem;
-    /* min-width: 20rem; */
+    transition: .2s ease-in-out;
+
     animation: blurScale linear both;
     animation-timeline: view();
     animation-range: entry 50% cover 30%;
 }
 
-.project-img, .project-img1 {
-    box-shadow: 30px 33px 15px rgba(0, 0, 0, 0.2);
-    transition: .2s ease-in-out;
+.project-img{
+    box-shadow: -25px 30px 15px rgba(0, 0, 0, 0.4);
 }
+
+.project-img1 {
+    box-shadow: 25px 30px 15px rgba(0, 0, 0, 0.4);
+}
+
     .project-img:hover{
         transform: scale(1.01);
     }
@@ -66,6 +71,11 @@
 }
 .projects-hr:hover{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #299fff, rgba(0, 0, 0, 0));
+}
+
+.projects-container a{
+    text-decoration: none;
+    color: var(--text-color-theme);
 }
 
 
