@@ -1,7 +1,6 @@
 #projects {
     box-shadow: var(--box-shadow-section);
     padding: var(--padding-section);
-    /* width: 100%; */
 }
 
 .projects-container {
@@ -12,7 +11,7 @@
     align-items: center;
 }
 
-.projects-container div {
+.projects-container > div {
     width: clamp(15rem, 30vw, 40rem);
     padding: 2rem 3rem;
     background: linear-gradient(121.7deg, #5272ff1e  50%, rgba(129, 130, 145, 0.473) 69%);
@@ -21,15 +20,8 @@
     font-size: clamp(1rem, 1.5vw, 1.3rem);
     text-align: center;
     transition: 0.1s ease-in-out;
-    animation: blurScale linear both;
-    animation-timeline: view();
-    animation-range: entry 50% cover 20%;
 }
-    .projects-container > div:hover{
-        transform: scale(1.01);
-        color: var(--text-hover-color);
-    }   
-    
+ 
     .projects-container h1{
         margin-bottom: 1rem;
     }
@@ -42,11 +34,14 @@
     width: 50vw;   
     max-width: 45rem;
     transition: .2s ease-in-out;
+}
 
+.projects-container{
     animation: blurScale linear both;
     animation-timeline: view();
     animation-range: entry 50% cover 30%;
 }
+
 
 .project-img{
     box-shadow: -25px 30px 15px rgba(0, 0, 0, 0.4);
@@ -56,12 +51,8 @@
     box-shadow: 25px 30px 15px rgba(0, 0, 0, 0.4);
 }
 
-    .project-img:hover{
-        transform: scale(1.01);
-    }
-
-    .project-img1:hover{
-        transform: scale(1.01);
+    .project-img:hover, .project-img1:hover, .projects-container > div:hover{
+        transform: scale(1.02);
     }
 
 .projects-hr{
@@ -78,7 +69,17 @@
     color: var(--text-color-theme);
 }
 
+.visit-site-right, .visit-site-right{
+    font-size: clamp(.8rem, 2vw, 1rem);
+}
 
+.visit-site-right{
+    text-align: end;
+}
+
+.visit-site-right:hover, .visit-site-left:hover{
+    transform: scale(1.01);
+}
 @media screen and (max-width: 1200px) {
     #projects{
         padding: 5rem 5% 2rem   ;

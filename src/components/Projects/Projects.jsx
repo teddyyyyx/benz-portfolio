@@ -14,15 +14,16 @@ export const Projects = () => {
       <div className='projects-container'>
         <a href="https://teddyyyyx.github.io/hanzy-stylez-react/" target='__blank'>
           <img src={prj1} alt="" className='project-img'/>
+          <p className='visit-site-left'>Visit website</p>
         </a>
 
           <div>
-          <a href="https://teddyyyyx.github.io/hanzy-stylez-react/" target='__blank'>
-            <h1>Hanzy Styles</h1>
-          </a>
-            Developed the Hanzy Stylez e-commerce website with ReactJS, 
-            crafting dynamic and responsive user interfaces for all modern devices. 
-            Applied my frontend expertise to ensure optimal performance and user experience.
+              <a href="https://teddyyyyx.github.io/hanzy-stylez-react/" target='__blank'>
+                <h1>Hanzy Styles</h1>
+              </a>
+              Developed the Hanzy Stylez e-commerce website with ReactJS, 
+              crafting dynamic and responsive user interfaces for all modern devices. 
+              Applied my frontend expertise to ensure optimal performance and user experience.
           </div>
       </div>
       <hr className='projects-hr'/>
@@ -42,6 +43,7 @@ export const Projects = () => {
 
         <a href="https://teddyyyyx.github.io/movieflix-react/" target='__blank'> 
           <img src={prj2} alt="" className='project-img1'/>
+          <p className='visit-site-right'>Visit website</p>
         </a>
       </div>
       <hr className='projects-hr'/>
