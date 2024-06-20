@@ -46,11 +46,6 @@ export const Skills = () => {
               </div>
 
               <div>
-                <img src={phpImg} alt="" />
-                <p>PHP</p>
-              </div>
-
-              <div>
                 <img src={cImg} alt="" />
                 <p>C</p>
               </div>
