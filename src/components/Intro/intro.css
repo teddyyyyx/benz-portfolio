@@ -1,7 +1,7 @@
 #intro{
     padding: 15% 12%;
     box-shadow: var(--box-shadow-section);  
-    min-height: 65vh;
+    min-height: 85vh;
 }
 
 .benz-img{
@@ -81,7 +81,6 @@
     }
 
     .intro-name-container{
-        margin-top: 2rem;
         text-align: center;
     }
 
@@ -95,6 +94,7 @@
 
 @media screen and (max-width: 825px) {
     .intro-name-container{
+        margin-top: 2rem;
         text-align: center;
     };
 
