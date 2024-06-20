@@ -14,13 +14,20 @@
     background-color: var(--main-color-theme);
 }
 
-.logo{
-    height: 3.5rem;
+/* .logo{
+    height: 2rem;
     object-fit: cover;
     -webkit-user-drag: none;
     user-select: none;
     -moz-user-select: -moz-none;
     cursor: pointer;
+} */
+
+.logo-name{
+    font-family: 'NullFree', sans-serif;
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
+    font-weight: 300;
+    color: var(--text-color-theme);
 }
 
 .desktopMenuListItem{
@@ -85,6 +92,6 @@
         display: none;
     }
     .logo{
-        height: 2.5rem;
+        height: 1.5rem;
     }
 }
