@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/benz-portfolio/static/css/main.87d47253.css",
-    "main.js": "/benz-portfolio/static/js/main.9043fd1b.js",
+    "main.css": "/benz-portfolio/static/css/main.9b394910.css",
+    "main.js": "/benz-portfolio/static/js/main.49ca5fcc.js",
+    "static/media/HoneyFlix_prj2.png": "/benz-portfolio/static/media/HoneyFlix_prj2.a3a8d1ff0690ea7ca91f.png",
     "static/media/hanzy-style_prj1.png": "/benz-portfolio/static/media/hanzy-style_prj1.e1fdeda2b6c0d36e0364.png",
     "static/media/test-img.png": "/benz-portfolio/static/media/test-img.9bfe887995c846c46ecb.png",
     "static/media/Tagle.png": "/benz-portfolio/static/media/Tagle.5b3817db8fb32b7b6042.png",
@@ -27,11 +28,11 @@
     "static/media/illustrator.png": "/benz-portfolio/static/media/illustrator.b8bff4b8c210f43024a4.png",
     "static/media/burgerImg.png": "/benz-portfolio/static/media/burgerImg.bafa886a4a3a9b6804b9.png",
     "index.html": "/benz-portfolio/index.html",
-    "main.87d47253.css.map": "/benz-portfolio/static/css/main.87d47253.css.map",
-    "main.9043fd1b.js.map": "/benz-portfolio/static/js/main.9043fd1b.js.map"
+    "main.9b394910.css.map": "/benz-portfolio/static/css/main.9b394910.css.map",
+    "main.49ca5fcc.js.map": "/benz-portfolio/static/js/main.49ca5fcc.js.map"
   },
   "entrypoints": [
-    "static/css/main.87d47253.css",
-    "static/js/main.9043fd1b.js"
+    "static/css/main.9b394910.css",
+    "static/js/main.49ca5fcc.js"
   ]
 }
