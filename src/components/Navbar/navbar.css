@@ -14,20 +14,16 @@
     background-color: var(--main-color-theme);
 }
 
-/* .logo{
-    height: 2rem;
-    object-fit: cover;
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: -moz-none;
-    cursor: pointer;
-} */
-
 .logo-name{
     font-family: 'NullFree', sans-serif;
     font-size: clamp(1.8rem, 5vw, 2.5rem);
     font-weight: 300;
+    cursor: pointer;
     color: var(--text-color-theme);
+}
+
+.logo-name:hover{
+    color: #e7e3e3;
 }
 
 .desktopMenuListItem{

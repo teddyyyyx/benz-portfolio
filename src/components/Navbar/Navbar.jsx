@@ -1,19 +1,24 @@
 import React, { useState } from 'react'
 import './navbar.css';
-import { Link } from 'react-scroll';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 export const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+    setShowMenu(false);
+  };
   return (
     <nav className="navbar">
-        <h1 className='logo-name'>benz.st</h1>
+          <h1 onClick={scrollToTop} className='logo-name'>benz.st</h1>
+
 
         <div className="desktopMenu">
           <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-350} duration={1000} className="desktopMenuListItem">Home</Link>
-          <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-200} duration={1000} className="desktopMenuListItem">Projects</Link>
-          <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-120} duration={1000} className="desktopMenuListItem">Skills</Link>
-          <Link activeClass='active' to='about' spy={true} smooth={true} offset={-80} duration={1000} className="desktopMenuListItem">About</Link>
+          <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-30} duration={1000} className="desktopMenuListItem">Projects</Link>
+          <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={1000} className="desktopMenuListItem">Skills</Link>
+          <Link activeClass='active' to='about' spy={true} smooth={true} offset={-70} duration={1000} className="desktopMenuListItem">About</Link>
           <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-50} duration={1000} className="desktopMenuListItem">Contact</Link>
         </div>
 
@@ -29,10 +34,10 @@ export const Navbar = () => {
 
         <div className="navMenu" style={{display: showMenu? 'flex' : 'none'}}>
           <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-200} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Home</Link>
-          <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-150} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Projects</Link>
-          <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Skills</Link>
-          <Link activeClass='active' to='about' spy={true} smooth={true} offset={-150} duration={500} className="listItem" onClick={() => setShowMenu(false)}>About</Link>
-          <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Contact</Link>
+          <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-30} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Projects</Link>
+          <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-30} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Skills</Link>
+          <Link activeClass='active' to='about' spy={true} smooth={true} offset={-20} duration={500} className="listItem" onClick={() => setShowMenu(false)}>About</Link>
+          <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-40} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Contact</Link>
         </div>
     </nav>
 )

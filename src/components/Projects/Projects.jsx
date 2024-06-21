@@ -1,6 +1,5 @@
 import React from 'react'
 import './projects.css'
-import testImg from '../../assets/test-img.png'
 import prj1 from '../../assets/project-imgs/hanzy-style_prj1.png'
 import prj2 from '../../assets/project-imgs/HoneyFlix_prj2.png'
 import prj3 from '../../assets/project-imgs/Benz_prj3.png'

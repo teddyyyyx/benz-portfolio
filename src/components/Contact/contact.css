@@ -1,5 +1,5 @@
 #contact{
-    min-height: 80vh;
+    min-height: 85vh;
     background: linear-gradient(151.7deg, #5272ff1e  50%, rgba(129, 130, 145, 0.473) 69%);
     display: flex;
     justify-content: center;
@@ -57,8 +57,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1.5rem;
-    height: 2rem;
+    padding: 1rem 2rem;
     border-radius: 20rem;
     background-color: var(--text-color-theme);
     transition: transform 0.5s, box-shadow 0.5s;
@@ -70,7 +69,7 @@
     transform: scale(1.1);
 }
 .submit-btn:active{
-        transform: translateY(4px);
+        transform: translateY(2px);
         box-shadow: none;
         color: var(--text-color-theme);
         background-color: grey;
