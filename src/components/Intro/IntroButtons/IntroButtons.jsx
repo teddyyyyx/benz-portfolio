@@ -27,7 +27,7 @@ export const IntroButtons = () => {
                 <img src={githubImg} alt="" className='github-img'/>
             </a>
 
-            <a href="https://www.linkedin.com/in/benz-tagle-506475248/" target='_blank' rel='noreferrer'>
+            <a href="https://www.linkedin.com/in/taglebenzsamson" target='_blank' rel='noreferrer'>
                 <img src={linkedinImg} alt="" className='linkedin-img'/>
             </a>
         </div>
