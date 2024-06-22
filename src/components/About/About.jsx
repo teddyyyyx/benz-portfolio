@@ -1,4 +1,6 @@
 import React from 'react'
+import {  motion } from "framer-motion";
+
 import './about.css'
 import devDudeImg from '../../../src/assets/Tagle.png'
 
@@ -23,11 +25,16 @@ export const About = () => {
         <hr className='about-hr'/>
 
         <div className='about-paragraph'>
-            <p>
+            <motion.p
+                initial={{ scale: 0.8, opacity: 0,}}
+                whileInView={{ scale: 1, opacity: 1,}}
+                transition={{ duration: .5}}
+                // viewport={{ once: true }}
+            >
               "Hey there! I'm Benz Samson Tagle, a passionate developer specializing in web development. 
               I hold a degree in Computer Science from Bicol University,
               where I cultivated my love for coding and technology. 
-            </p>
+            </motion.p>
   
             <p>
               My journey in web development has been driven by a desire to create impactful, 

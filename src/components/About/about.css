@@ -15,10 +15,6 @@
   width: fit-content;
   margin: 0 auto;  
   padding: 2rem;
-
-  animation: blur linear both;
-  animation-timeline: view();
-  animation-range: entry 20% cover 20%;
 }
 
 .about-info{
@@ -37,12 +33,8 @@
   }
   
   .about-info p{
-    transition: transform 0.2s ease-in-out;
     margin: 0;
     font-size: clamp(1.1rem, 1.5vw, 1.5rem);
-    animation: scaleText linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 30%;
   }
 
     .about-info p:hover{
@@ -88,18 +80,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  transition: transform 0.2s ease;
   margin-top: 5rem;
 }
 
 .about-paragraph p{
   margin: 0 15%;
-}
-
-.about-paragraph p:first-of-type(1){
-  animation: scaleInFromLeft linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 30%;
 }
 
 .about-paragraph:hover {
