@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/benz-portfolio/static/css/main.6afeb7e9.css",
+    "main.css": "/benz-portfolio/static/css/main.ec37de79.css",
     "main.js": "/benz-portfolio/static/js/main.10d58a15.js",
     "static/media/HoneyFlix_prj2.png": "/benz-portfolio/static/media/HoneyFlix_prj2.a3a8d1ff0690ea7ca91f.png",
     "static/media/hanzy-style_prj1.png": "/benz-portfolio/static/media/hanzy-style_prj1.e1fdeda2b6c0d36e0364.png",
@@ -28,11 +28,11 @@
     "static/media/javascript.png": "/benz-portfolio/static/media/javascript.01b76f22ebd450eff363.png",
     "static/media/illustrator.png": "/benz-portfolio/static/media/illustrator.b8bff4b8c210f43024a4.png",
     "index.html": "/benz-portfolio/index.html",
-    "main.6afeb7e9.css.map": "/benz-portfolio/static/css/main.6afeb7e9.css.map",
+    "main.ec37de79.css.map": "/benz-portfolio/static/css/main.ec37de79.css.map",
     "main.10d58a15.js.map": "/benz-portfolio/static/js/main.10d58a15.js.map"
   },
   "entrypoints": [
-    "static/css/main.6afeb7e9.css",
+    "static/css/main.ec37de79.css",
     "static/js/main.10d58a15.js"
   ]
 }
