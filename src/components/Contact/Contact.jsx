@@ -1,4 +1,5 @@
 import React, {useRef} from 'react'
+import {  motion } from "framer-motion";
 import './contact.css'
 import emailjs from '@emailjs/browser'
 
@@ -27,7 +28,13 @@ export const Contact = () => {
   return (
       <section id="contact"> 
           <div>
-            <h1 className='contactTitle'>Get in touch!</h1>
+            <motion.h1 className='contactTitle'
+            initial={{ scale: 5, opacity: 0,}}
+            whileInView={{ scale: 1, opacity: 1,}}
+            transition={{ duration: .8}}
+            >
+              Get in touch!
+            </motion.h1>
             <span className='contactDescription'>Reach out for any queries! Fill the form below.</span>
       
             <form action="" className='contactForm' ref={form} onSubmit={sendEmail}>
@@ -39,7 +46,7 @@ export const Contact = () => {
           </div>
 
           <p className='extra'>
-            Website made with React
+            Portfolio made with React
           </p>
       </section>
   )

@@ -1,5 +1,7 @@
 import React from 'react'
+import {  motion } from "framer-motion";
 import './skills.css'
+
 import htmlImg from '../../assets/html.png'
 import cssImg from '../../assets/css.png'
 import javascriptImg from '../../assets/javascript.png'
@@ -24,7 +26,12 @@ export const Skills = () => {
         <h1 className='title'>Tools I use</h1>
 
         <div className='skill-grid'>
-          <div className="main-stack-container">
+          <motion.div className="main-stack-container"
+            initial={{ scale: 0.8, opacity: 0,}}
+            whileInView={{ scale: 1, opacity: 1,}}
+            transition={{ duration: .3}}
+            // viewport={{ once: true }}
+          >
               <div>
                 <img src={htmlImg} alt="" />
                 <p>HTML</p>
@@ -48,9 +55,14 @@ export const Skills = () => {
                 <img src={cImg} alt="" />
                 <p>C</p>
               </div>
-          </div>
+          </motion.div>
 
-          <div className='skill-stack-container-1'>
+          <motion.div className='skill-stack-container-1'
+          initial={{ scale: 0.8, opacity: 0,}}
+          whileInView={{ scale: 1, opacity: 1,}}
+          transition={{ duration: .3}}
+          // viewport={{ once: true }}
+          >
             <div>
               <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
                   <img src={sassImg} alt="" />
@@ -111,9 +123,9 @@ export const Skills = () => {
                 <img src={linuxImg} alt="" />
                 <p>Linux Environment</p>
             </div>
-          </div>
-        </div>
+          </motion.div>
 
+        </div>
     </section>
 )
 }

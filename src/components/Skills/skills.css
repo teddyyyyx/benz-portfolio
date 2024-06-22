@@ -28,9 +28,6 @@
     background: var(--container-color-theme);
     width: 100%;
     padding: 2rem 0;
-    animation: blurScale linear both;
-    animation-timeline: view();
-    animation-range: entry 50% cover 30%;
 }
 
 .main-stack-container div {
@@ -70,9 +67,6 @@
     place-content: center center;
     box-sizing: border-box;
     align-items: center;
-    animation: blurScale linear both;
-    animation-timeline: view();
-    animation-range: entry 20% cover 20%;
 }
 
 .skill-stack-container-1 img{

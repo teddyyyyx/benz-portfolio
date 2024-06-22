@@ -19,7 +19,7 @@
     color: var(--text-color-theme);
     font-size: clamp(1rem, 1.5vw, 1.3rem);
     text-align: center;
-    transition: 0.1s ease-in-out;
+    /* transition: 0.1s ease-in-out; */
 }
  
     .projects-container h1{
@@ -33,14 +33,14 @@
 .project-img, .project-img1{
     width: 50vw;   
     max-width: 45rem;
-    transition: .2s ease-in-out;
+    /* transition: .2s ease-in-out; */
 }
 
-.projects-container{
+/* .projects-container{
     animation: blurScale linear both;
     animation-timeline: view();
     animation-range: entry 50% cover 30%;
-}
+} */
 
 
 .project-img{
@@ -51,9 +51,9 @@
     box-shadow: 25px 30px 15px rgba(0, 0, 0, 0.4);
 }
 
-    .project-img:hover, .project-img1:hover, .projects-container > div:hover{
+    /* .project-img:hover, .project-img1:hover, .projects-container > div:hover{
         transform: scale(1.02);
-    }
+    } */
 
 .projects-hr{
     border: 0;
