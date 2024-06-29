@@ -80,7 +80,7 @@ export const Navbar = () => {
           <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-30} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Projects</Link>
           <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-30} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Skills</Link>
           <Link activeClass='active' to='about' spy={true} smooth={true} offset={-20} duration={500} className="listItem" onClick={() => setShowMenu(false)}>About</Link>
-          <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-40} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Contact</Link>
+          <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-20} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Contact</Link>
         </div>
     </nav>
 )
