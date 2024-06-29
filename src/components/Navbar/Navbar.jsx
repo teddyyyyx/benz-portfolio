@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './navbar.css';
 import { Link, animateScroll as scroll } from 'react-scroll';
-import { useAnimation, motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+// import { useInView } from "react-intersection-observer";
+import { motion, useScroll, useTransform } from 'framer-motion';
 
 export const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -11,9 +11,50 @@ export const Navbar = () => {
     scroll.scrollToTop();
     setShowMenu(false);
   };
+
+  const title  = "benz";
+
+  // Value being driven by scrolling (e.g. height)
+  const initialValue = 140;
+  const finalValue = 108;
+  const thresholdY = 370; // set the scroll position where you want the state change
+
+  const speed = 1;
+  const scrollDistance = (initialValue - finalValue) / speed;
+
+  const startY = 0; // scroll position when transition starts
+  const endY = startY + scrollDistance;
+
+  const { scrollY } = useScroll();
+  const scrollOutput = useTransform(
+    scrollY,
+    [startY, endY, endY],
+    [initialValue, finalValue, initialValue],
+    {
+      clamp: false
+    }
+  );
+
+  const [isPastThreshold, setIsPastThreshold] = useState(false);
+  useEffect(
+    () => scrollY.onChange((latest) => setIsPastThreshold(latest > thresholdY)),
+    []
+  );
   return (
     <nav className="navbar">
-          <h1 onClick={scrollToTop} className='logo-name'>benz.st</h1>
+          {/* <h1 onClick={scrollToTop} className='logo-name'>benz.st</h1> */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{
+              opacity: isPastThreshold ? 1 : 0,
+              scale: isPastThreshold ? 1 : 0.5
+            }}
+            className='logo-name'
+            onClick={scrollToTop}
+          >
+            {title}
+          </motion.div>
+
 
 
         <div className="desktopMenu">

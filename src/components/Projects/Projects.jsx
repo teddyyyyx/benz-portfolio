@@ -16,10 +16,10 @@ export const Projects = () => {
       </h1>
 
 
-      <motion.div className='projects-container'
+      <motion.div className='projects-container'  
         initial={{ scale: 0.8, opacity: 0,}}
         whileInView={{ scale: 1, opacity: 1,}}
-        transition={{ duration: .5}}
+        transition={{ duration: 1}}
         // viewport={{ once: true }}
       >
           <a href="https://teddyyyyx.github.io/hanzy-stylez-react/" target='__blank'>
@@ -43,7 +43,7 @@ export const Projects = () => {
       <motion.div className='projects-container col-reverse'
         initial={{ scale: 0.8, opacity: 0 }}
         whileInView={{ scale: 1, opacity: 1 }}
-        transition={{ duration: .5 }}
+        transition={{ duration: 1 }}
         // viewport={{ once: true }}
       >
             <div>
@@ -68,7 +68,7 @@ export const Projects = () => {
       <motion.div className='projects-container'
         initial={{ scale: 0.8, opacity: 0,}}
         whileInView={{ scale: 1, opacity: 1,}}
-        transition={{ duration: .5 }}
+        transition={{ duration: 1 }}
         // viewport={{ once: true }}
       >
         <img src={prj3} alt="" className='project-img'/>

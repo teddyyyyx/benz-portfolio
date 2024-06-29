@@ -51,10 +51,10 @@ export const Skills = () => {
                 <p>React</p>
               </div>
 
-              <div>
+              {/* <div>
                 <img src={cImg} alt="" />
                 <p>C</p>
-              </div>
+              </div> */}
           </motion.div>
 
           <motion.div className='skill-stack-container-1'
