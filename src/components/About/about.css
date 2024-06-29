@@ -75,11 +75,11 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   line-height: 2.6rem;
   background: linear-gradient(151.7deg, #9aaeffd0  25%, rgb(147, 159, 175) 69%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
   background-clip: text;
   margin-top: 5rem;
 }
@@ -88,12 +88,12 @@
   margin: 0 15%;
 }
 
-.about-paragraph:hover {
+/* .about-paragraph:hover {
   background: linear-gradient(151.7deg, #b6bcd3d0  35%, rgb(83, 147, 231) 69%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-}
+} */
 
 .about-hr{
   margin: 2rem auto;
