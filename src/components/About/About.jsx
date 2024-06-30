@@ -29,31 +29,28 @@ export const About = () => {
         </motion.div>
         <hr className='about-hr'/>
 
-        <div className='about-paragraph'>
-            <motion.p
-             initial={{ scale: 0.8, opacity: 0,}}
-             whileInView={{ scale: 1, opacity: 1,}}
-             transition={{ duration: .5}}
-             viewport={{ once: true }}
-            >
+        <motion.div
+          className='about-paragraph'
+          initial={{ y: 100, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: .5}}
+          viewport={{ once: true }}
+        >
+            <p>
               "Hey there! I'm Benz Samson Tagle, a passionate developer specializing in web development. 
               I hold a degree in Computer Science from Bicol University,
               where I cultivated my love for coding and technology. 
-            </motion.p>
+            </p>
   
-            <motion.p
-             initial={{ scale: 0.8, opacity: 0,}}
-             whileInView={{ scale: 1, opacity: 1,}}
-             transition={{ duration: .7}}
-             viewport={{ once: true }}
+            <p
             >
               My journey in web development has been driven by a desire to create impactful, 
               user-friendly web applications that solve real-world problems."
-            </motion.p>
+            </p>
             
            <br />
             x
-        </div>
+        </motion.div>
         
     </section>
   )

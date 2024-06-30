@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './navbar.css';
 import { Link, animateScroll as scroll } from 'react-scroll';
-// import { useInView } from "react-intersection-observer";
 import { motion, useScroll, useTransform } from 'framer-motion';
 
 export const Navbar = () => {
@@ -41,7 +40,12 @@ export const Navbar = () => {
     []
   );
   return (
-    <nav className="navbar">
+    <motion.nav 
+      className="navbar"
+      initial={{ y: -110 }}
+      animate={{ y: 0 }}
+      transition={{ duration: 1, delay: .8 }}
+    >
           {/* <h1 onClick={scrollToTop} className='logo-name'>benz.st</h1> */}
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
@@ -82,7 +86,7 @@ export const Navbar = () => {
           <Link activeClass='active' to='about' spy={true} smooth={true} offset={-30} duration={500} className="listItem" onClick={() => setShowMenu(false)}>About</Link>
           <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-20} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Contact</Link>
         </div>
-    </nav>
+    </motion.nav>
 )
 }
 
