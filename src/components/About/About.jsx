@@ -13,7 +13,8 @@ export const About = () => {
           className='about-container'
           initial={{ scale: 0.8, opacity: 0,}}
           whileInView={{ scale: 1, opacity: 1,}}
-          transition={{ duration: 1}}
+          transition={{ duration: .5}}
+          viewport={{ once: true }}
         >
             <img src={devDudeImg} alt="" className='about-img'/>
 
@@ -32,7 +33,8 @@ export const About = () => {
             <motion.p
              initial={{ scale: 0.8, opacity: 0,}}
              whileInView={{ scale: 1, opacity: 1,}}
-             transition={{ duration: 1}}
+             transition={{ duration: .5}}
+             viewport={{ once: true }}
             >
               "Hey there! I'm Benz Samson Tagle, a passionate developer specializing in web development. 
               I hold a degree in Computer Science from Bicol University,
@@ -42,7 +44,8 @@ export const About = () => {
             <motion.p
              initial={{ scale: 0.8, opacity: 0,}}
              whileInView={{ scale: 1, opacity: 1,}}
-             transition={{ duration: 1.3}}
+             transition={{ duration: .7}}
+             viewport={{ once: true }}
             >
               My journey in web development has been driven by a desire to create impactful, 
               user-friendly web applications that solve real-world problems."

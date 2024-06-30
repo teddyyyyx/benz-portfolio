@@ -32,6 +32,7 @@ export const Contact = () => {
             initial={{ scale: 5, opacity: 0,}}
             whileInView={{ scale: 1, opacity: 1,}}
             transition={{ duration: .8}}
+            viewport={{ once: true }}
             >
               Get in touch!
             </motion.h1>
