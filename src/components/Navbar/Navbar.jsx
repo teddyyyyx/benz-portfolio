@@ -60,7 +60,7 @@ export const Navbar = () => {
         <div className="desktopMenu">
           <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-350} duration={1000} className="desktopMenuListItem">Home</Link>
           <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-30} duration={1000} className="desktopMenuListItem">Projects</Link>
-          <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={1000} className="desktopMenuListItem">Skills</Link>
+          <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-30} duration={1000} className="desktopMenuListItem">Skills</Link>
           <Link activeClass='active' to='about' spy={true} smooth={true} offset={-70} duration={1000} className="desktopMenuListItem">About</Link>
           <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-50} duration={1000} className="desktopMenuListItem">Contact</Link>
         </div>
@@ -79,7 +79,7 @@ export const Navbar = () => {
           <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-200} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Home</Link>
           <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-30} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Projects</Link>
           <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-30} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Skills</Link>
-          <Link activeClass='active' to='about' spy={true} smooth={true} offset={-20} duration={500} className="listItem" onClick={() => setShowMenu(false)}>About</Link>
+          <Link activeClass='active' to='about' spy={true} smooth={true} offset={-30} duration={500} className="listItem" onClick={() => setShowMenu(false)}>About</Link>
           <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-20} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Contact</Link>
         </div>
     </nav>
