@@ -6,6 +6,8 @@
     position: relative;
     overflow-x: hidden;
     height: 90vh;
+    min-height: 45rem;
+
 }
 
 #contact > div{
