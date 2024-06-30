@@ -69,13 +69,13 @@
   }
 
 .about-paragraph{
-  font-family: "Caveat", cursive;
+  /* font-family: "Caveat", cursive; */
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: 2.3rem;
+  font-size: 1.5rem;
   line-height: 2.6rem;
   background: linear-gradient(151.7deg, #9aaeffd0  25%, rgb(147, 159, 175) 69%);
   -webkit-background-clip: text;
