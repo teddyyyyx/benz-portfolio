@@ -22,6 +22,27 @@ import wordpress from '../../assets/svg/wordpress.svg'
 
 
 export const Skills = () => {
+
+  const animationDuration = 5; // Change animation duration here
+const variants = {
+  initial: { pathLength: 0, strokeOpacity: 1, fillOpacity: 0 },
+  animate: {
+    pathLength: 1,
+    strokeOpacity: 0,
+    fillOpacity: 1,
+    transition: {
+      duration: animationDuration,
+      ease: "easeInOut",
+      strokeOpacity: {
+        delay: animationDuration
+      },
+      fillOpacity: {
+        delay: animationDuration
+      }
+    }
+  }
+};
+
   return (
     <section id='skills'>
         <h1 className='title'>Tools I use</h1>

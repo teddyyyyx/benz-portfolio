@@ -61,8 +61,8 @@ export const Navbar = () => {
           <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-350} duration={1000} className="desktopMenuListItem">Home</Link>
           <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-30} duration={1000} className="desktopMenuListItem">Projects</Link>
           <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-30} duration={1000} className="desktopMenuListItem">Skills</Link>
-          <Link activeClass='active' to='about' spy={true} smooth={true} offset={-70} duration={1000} className="desktopMenuListItem">About</Link>
-          <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-50} duration={1000} className="desktopMenuListItem">Contact</Link>
+          <Link activeClass='active' to='about' spy={true} smooth={true} offset={-20} duration={1000} className="desktopMenuListItem">About</Link>
+          <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-20} duration={1000} className="desktopMenuListItem">Contact</Link>
         </div>
 
         <svg className='burgerMenu' onClick={()=>setShowMenu(!showMenu)} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#FFFFFF" transform="matrix(-1, 0, 0, 1, 0, 0)">

@@ -1,12 +1,11 @@
 #contact{
-    min-height: 88vh;
     background: linear-gradient(151.7deg, #5272ff1e  50%, rgba(129, 130, 145, 0.473) 69%);
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    padding: 5rem 0;
     overflow-x: hidden;
+    height: 90vh;
 }
 
 #contact > div{
