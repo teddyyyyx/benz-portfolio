@@ -2,6 +2,8 @@ import React from 'react';
 import './intro.css';
 import benzImg from '../../assets/benzImg.png';
 import { IntroButtons } from './IntroButtons/IntroButtons';
+import lottie_dude from '../../assets/lottie/lottie-dude.json'
+import Lottie from 'lottie-react';
 
 export const Intro = () => {
   return (
@@ -15,8 +17,11 @@ export const Intro = () => {
 
         </div>
 
-            <img src={benzImg} alt="" className='benz-img'/>
+            {/* <img src={benzImg} alt="" className='benz-img'/> */}
             <IntroButtons/>
+
+            <Lottie animationData={lottie_dude} className='benz-img'/>
+
 
     </section>
 )
