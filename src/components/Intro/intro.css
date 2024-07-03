@@ -9,15 +9,15 @@
 
 .benz-img{
     position: absolute;
-    z-index: -1;
     /* height: 60vh; */
     width: clamp(20rem, 70vw, 45rem);
     right: 8rem;
-    top: 15rem;
+    top: 10rem;
     opacity: 0;
     transform: translateX(100%);
     animation: slideInFromRight 2.5s forwards;
     filter: drop-shadow(13px 7px 12px #000000);
+    pointer-events: none; 
 }
 
 .intro-name-container{
@@ -76,8 +76,8 @@
     }
     .benz-img{
         right: 0;
-        top: 15rem;
-        margin: -2rem;
+        margin: -4rem;
+        z-index: 1;
     }
     
 }
@@ -102,7 +102,7 @@
 
     .intro-description{
         width: 90%;
-        margin: 3rem 0 1rem;
+        margin-bottom: 2rem;
         text-align: center;
         font-size: clamp(1rem, 1.5vw, 1.2rem);
     }
@@ -111,12 +111,7 @@
 @media screen and (max-width: 825px) {
     .intro-name-container{
         margin-top: 2rem;
-        text-align: center;
     };
-
-    .intro-name{
-        margin-bottom: 1rem;
-    }
 }
 
 @media screen and (max-width: 500px) {
@@ -139,9 +134,7 @@
         position: absolute;
         z-index: -99;
         width: 39rem;
-        overflow-x: hidden;
         width: fit-content;
-        /* top: 0; */
     }
 }
 
