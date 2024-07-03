@@ -104,6 +104,9 @@
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0));
 }
 
+.lottie-astronaut{
+   width: 15rem;
+}
 @media screen and (max-width: 1400px){
   .about-paragraph{
     padding: 5rem;

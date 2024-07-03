@@ -3,6 +3,8 @@ import {  motion } from "framer-motion";
 
 import './about.css'
 import devDudeImg from '../../../src/assets/Tagle.png'
+import Lottie from 'lottie-react';
+import lottie_astronaut from '../../../src/assets/lottie/lottie-astronaut.json'
 
 export const About = () => {
   return (
@@ -49,7 +51,7 @@ export const About = () => {
             </p>
             
            <br />
-            x
+            <Lottie animationData={lottie_astronaut} className='lottie-astronaut'/>
         </motion.div>
         
     </section>

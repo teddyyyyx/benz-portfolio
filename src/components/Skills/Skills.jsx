@@ -19,8 +19,7 @@ import canva from '../../assets/svg/canva.svg'
 import tux from '../../assets/svg/tux.svg'
 import framer from '../../assets/svg/framer-motion.svg'
 import wordpress from '../../assets/svg/wordpress.svg'
-import lottie_skills from '../../assets/lottie/lottie-skills.json'
-import Lottie from 'lottie-react';
+
 
 
 export const Skills = () => {
@@ -136,15 +135,6 @@ export const Skills = () => {
           </motion.div>
           </div>
 
-{/* 
-          <motion.div
-           initial={{ scale: 0.8, opacity: 0,}}
-           whileInView={{ scale: 1, opacity: 1}}
-           transition={{ duration: .3}}
-           viewport={{ once: true }}
-          >
-            <Lottie animationData={lottie_skills} className='lottie-skills'/>
-          </motion.div> */}
         </div>
     </section>
 ) 
