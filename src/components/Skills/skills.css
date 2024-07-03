@@ -10,13 +10,21 @@
     color: var(--text-hover-color);
 }
 
+/* .skill-layout{
+    display: flex;
+    align-items: center;
+    padding: 0 8%;    
+    gap: 5rem;
+} */
+
 .skill-grid {
     display: flex;
     flex-direction: column;
     place-items: center;
     gap: 1rem;
     justify-content: center;
-    width: 80vw;
+    width: 70vw;
+    /* width: 40vw; */
 }
 
 .main-stack-container {
@@ -26,7 +34,7 @@
     border-radius: 2rem;
     background: var(--container-color-theme);
     width: 100%;
-    padding: 3rem 0;
+    padding: 2.5rem 0;
     gap: 2rem;
 }
 
@@ -36,7 +44,7 @@
     align-items: center;
     gap: .5rem;
     transition: all 1s cubic-bezier(0.175, 0.885, 0, 1);
-    padding: 1rem;
+    /* padding: 0rem; */
 }
 
 .main-stack-container p {
@@ -49,7 +57,7 @@
 }
 
 .main-stack-container img {
-    width: 4rem;
+    width: 3rem;
 }
 
 .main-stack-container div:hover {
@@ -71,7 +79,7 @@
 }
 
 .skill-stack-container-1 img{
-    width: 4rem;
+    width: 3rem;
 }
 
 .skill-stack-container-1 p{
@@ -81,7 +89,7 @@
     width: fit-content;
     border-radius: 2rem;
     color: var(--text-color-theme);
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .skill-stack-container-1 div{
@@ -98,8 +106,13 @@
 }
 
 .svg-icon{
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+
+.lottie-skills{
+    width: clamp(20rem, 50vw, 30rem);
 }
 
 @media screen and (max-width: 720px) {

@@ -19,40 +19,23 @@ import canva from '../../assets/svg/canva.svg'
 import tux from '../../assets/svg/tux.svg'
 import framer from '../../assets/svg/framer-motion.svg'
 import wordpress from '../../assets/svg/wordpress.svg'
+import lottie_skills from '../../assets/lottie/lottie-skills.json'
+import Lottie from 'lottie-react';
 
 
 export const Skills = () => {
-
-  const animationDuration = 5; // Change animation duration here
-const variants = {
-  initial: { pathLength: 0, strokeOpacity: 1, fillOpacity: 0 },
-  animate: {
-    pathLength: 1,
-    strokeOpacity: 0,
-    fillOpacity: 1,
-    transition: {
-      duration: animationDuration,
-      ease: "easeInOut",
-      strokeOpacity: {
-        delay: animationDuration
-      },
-      fillOpacity: {
-        delay: animationDuration
-      }
-    }
-  }
-};
 
   return (
     <section id='skills'>
         <h1 className='title'>Tools I use</h1>
 
-        <div className='skill-grid'>
+        <div className='skill-layout'>
+          <div className='skill-grid'>
           <motion.div className="main-stack-container"
             initial={{ scale: 0.8, opacity: 0,}}
             whileInView={{ scale: 1, opacity: 1,}}
             transition={{ duration: .3}}
-            // viewport={{ once: true }}
+            viewport={{ once: true }}
           >
               <div>
                 <img src={html} alt="" />
@@ -83,7 +66,7 @@ const variants = {
           initial={{ scale: 0.8, opacity: 0,}}
           whileInView={{ scale: 1, opacity: 1,}}
           transition={{ duration: .3}}
-          // viewport={{ once: true }}
+          viewport={{ once: true }}
           >
             <div>
               <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
@@ -151,10 +134,20 @@ const variants = {
                 <p>Linux Environment</p>
             </div>
           </motion.div>
+          </div>
 
+{/* 
+          <motion.div
+           initial={{ scale: 0.8, opacity: 0,}}
+           whileInView={{ scale: 1, opacity: 1}}
+           transition={{ duration: .3}}
+           viewport={{ once: true }}
+          >
+            <Lottie animationData={lottie_skills} className='lottie-skills'/>
+          </motion.div> */}
         </div>
     </section>
-)
+) 
 }
 
 

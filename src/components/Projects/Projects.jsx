@@ -20,7 +20,7 @@ export const Projects = () => {
         initial={{ scale: 0.8, opacity: 0,}}
         whileInView={{ scale: 1, opacity: 1,}}
         transition={{ duration: 1}}
-        // viewport={{ once: true }}
+        viewport={{ once: true }}
       >
           <a href="https://teddyyyyx.github.io/hanzy-stylez-react/" target='__blank'>
             <img src={prj1} alt="" className='project-img'/>
@@ -44,7 +44,7 @@ export const Projects = () => {
         initial={{ scale: 0.8, opacity: 0 }}
         whileInView={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1 }}
-        // viewport={{ once: true }}
+        viewport={{ once: true }}
       >
             <div>
             <a href="https://teddyyyyx.github.io/movieflix-react/" target='__blank'> 
@@ -69,7 +69,7 @@ export const Projects = () => {
         initial={{ scale: 0.8, opacity: 0,}}
         whileInView={{ scale: 1, opacity: 1,}}
         transition={{ duration: 1 }}
-        // viewport={{ once: true }}
+        viewport={{ once: true }}
       >
         <img src={prj3} alt="" className='project-img'/>
 

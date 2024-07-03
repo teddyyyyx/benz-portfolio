@@ -33,7 +33,7 @@ export const About = () => {
           className='about-paragraph'
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: .5}}
+          transition={{ duration: .5, delay: .1}}
           viewport={{ once: true }}
         >
             <p>
