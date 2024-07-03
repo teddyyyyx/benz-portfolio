@@ -7,10 +7,10 @@
 .benz-img{
     position: absolute;
     z-index: -1;
-    height: 50vh;
-    min-width: 40vh;
-    right: 12rem;
-    top: 16rem;
+    /* height: 60vh; */
+    width: clamp(20rem, 70vw, 45rem);
+    right: 8rem;
+    top: 15rem;
     opacity: 0;
     transform: translateX(100%);
     animation: slideInFromRight 2.5s forwards;
@@ -64,9 +64,26 @@
     /* text-shadow: -2px 1px 10px rgba(134, 149, 250, 0.616); */
 }
 
-@media screen and (max-width: 1250px) {
+
+
+
+@media screen and (max-width: 1700px) {
+    #intro{
+        padding: 15% 5%;
+    }
     .benz-img{
-        display: none;
+        right: 0;
+        top: 15rem;
+        margin: -2rem;
+    }
+    
+}
+
+@media screen and (max-width: 1400px) {
+    .benz-img{
+        position: static;
+        padding: 0;
+        /* margin-top:; */
     }
 
     #intro, .intro-name-container{
@@ -87,13 +104,7 @@
         font-size: clamp(1rem, 1.5vw, 1.2rem);
     }
 }
-@media screen and (max-width: 1500px) {
-    .benz-img{
-        right: 6rem;
-        top: 11rem;
-    }
-    
-}
+
 @media screen and (max-width: 825px) {
     .intro-name-container{
         margin-top: 2rem;
@@ -109,6 +120,15 @@
     #intro{
         padding: 0 10% 20%;
     }
+
+    /* .intro-description{
+        display: none;
+    } */
+
+    .intro-name-container{
+        margin-bottom: 2rem;
+    }
+
 }
 
 @keyframes fadeIn {

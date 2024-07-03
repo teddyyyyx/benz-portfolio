@@ -1,8 +1,8 @@
 import React from 'react';
 import './intro.css';
-import benzImg from '../../assets/benzImg.png';
 import { IntroButtons } from './IntroButtons/IntroButtons';
 import lottie_dude from '../../assets/lottie/lottie-dude.json'
+import lottie_mobile from '../../assets/lottie/lottie-mobile.json'
 import Lottie from 'lottie-react';
 
 export const Intro = () => {
@@ -14,15 +14,12 @@ export const Intro = () => {
             <p className='intro-description animate-title'>
                 Crafting ideas into reality, with a dash of code and a splash of imagination, aided with a little bit of stackoverflow — one keystroke at a time
                 </p>
-
         </div>
-
-            {/* <img src={benzImg} alt="" className='benz-img'/> */}
+        
+            <Lottie animationData={lottie_mobile} className='benz-img'/>
             <IntroButtons/>
 
-            <Lottie animationData={lottie_dude} className='benz-img'/>
-
-
+            {/* <Lottie animationData={lottie_dude} className='benz-img'/> */}
     </section>
 )
 }
