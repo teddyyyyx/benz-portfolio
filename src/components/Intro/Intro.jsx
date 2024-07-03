@@ -1,7 +1,6 @@
 import React from 'react';
 import './intro.css';
 import { IntroButtons } from './IntroButtons/IntroButtons';
-import lottie_dude from '../../assets/lottie/lottie-dude.json'
 import lottie_mobile from '../../assets/lottie/lottie-mobile.json'
 import Lottie from 'lottie-react';
 
@@ -15,7 +14,7 @@ export const Intro = () => {
                 Crafting ideas into reality, with a dash of code and a splash of imagination, aided with a little bit of stackoverflow — one keystroke at a time
                 </p>
         </div>
-        
+
             <Lottie animationData={lottie_mobile} className='benz-img'/>
             <IntroButtons/>
 

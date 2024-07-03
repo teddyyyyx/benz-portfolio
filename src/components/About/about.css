@@ -148,10 +148,6 @@
   .about-title{
     font-size: 3rem;
   }
-  .about-paragraph{
-  padding: 3rem .5rem;
-  border-radius: 0;
-}
 
 .about-paragraph p:nth-child(2){
   display: none;

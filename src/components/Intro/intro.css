@@ -121,12 +121,12 @@
         padding: 0 10% 20%;
     }
 
-    /* .intro-description{
-        display: none;
-    } */
-
     .intro-name-container{
         margin-bottom: 2rem;
+    }
+    
+    .benz-img{
+        margin-left: 1rem;
     }
 
 }
