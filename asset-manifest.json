@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/benz-portfolio/static/css/main.caa00278.css",
-    "main.js": "/benz-portfolio/static/js/main.d512f49f.js",
+    "main.css": "/benz-portfolio/static/css/main.a4ec5e38.css",
+    "main.js": "/benz-portfolio/static/js/main.062760e7.js",
     "static/media/HoneyFlix_prj2.png": "/benz-portfolio/static/media/HoneyFlix_prj2.a2a99c4fcd264129271b.png",
     "static/media/Tagle.png": "/benz-portfolio/static/media/Tagle.5b3817db8fb32b7b6042.png",
     "static/media/hanzy-style_prj1.png": "/benz-portfolio/static/media/hanzy-style_prj1.2f69088667f0581c2c46.png",
     "static/media/Montserrat-Medium.ttf": "/benz-portfolio/static/media/Montserrat-Medium.b8c6753baa964ccac1ba.ttf",
-    "static/media/benzImg.png": "/benz-portfolio/static/media/benzImg.052660ca784f2c1c96cc.png",
     "static/media/tux.svg": "/benz-portfolio/static/media/tux.6f7b8bef85a2ce47b424531f163f8653.svg",
     "static/media/Benz_prj3.png": "/benz-portfolio/static/media/Benz_prj3.69bdba6ac129920c9a8f.png",
     "static/media/BenzTagle_resume.pdf": "/benz-portfolio/static/media/BenzTagle_resume.a81f9978ceeb1e4744c3.pdf",
@@ -30,11 +29,11 @@
     "static/media/html.svg": "/benz-portfolio/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/javascript.svg": "/benz-portfolio/static/media/javascript.b879f838faf1cb951d1c2230fd933a39.svg",
     "static/media/framer-motion.svg": "/benz-portfolio/static/media/framer-motion.cd0e8acf350dd639e9e8c999f8539a5e.svg",
-    "main.caa00278.css.map": "/benz-portfolio/static/css/main.caa00278.css.map",
-    "main.d512f49f.js.map": "/benz-portfolio/static/js/main.d512f49f.js.map"
+    "main.a4ec5e38.css.map": "/benz-portfolio/static/css/main.a4ec5e38.css.map",
+    "main.062760e7.js.map": "/benz-portfolio/static/js/main.062760e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.caa00278.css",
-    "static/js/main.d512f49f.js"
+    "static/css/main.a4ec5e38.css",
+    "static/js/main.062760e7.js"
   ]
 }
