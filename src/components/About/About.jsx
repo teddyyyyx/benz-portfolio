@@ -50,9 +50,11 @@ export const About = () => {
               user-friendly web applications that solve real-world problems."
             </p>
             
-           <br />
-            <Lottie animationData={lottie_astronaut} className='lottie-astronaut'/>
+           <br /> <br />
         </motion.div>
+        
+        <Lottie animationData={lottie_astronaut} className='lottie-astronaut'/>
+
         
     </section>
   )

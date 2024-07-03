@@ -1,5 +1,5 @@
 #about{
-  padding: 7rem 0;
+  padding-top: 7rem;
   /* min-height: 90vh; */
   box-shadow: var(--box-shadow-section);
   overflow-x: hidden;
@@ -106,6 +106,7 @@
 
 .lottie-astronaut{
    width: 15rem;
+   margin: 2rem auto;
 }
 @media screen and (max-width: 1400px){
   .about-paragraph{
