@@ -1,7 +1,7 @@
 :root{
     --text-color-theme: #e7e3e3de;
-    --main-color-theme: #070119;
-    /* --main-color-theme: #151d2a; */
+    /* --main-color-theme: #070119; */
+    --main-color-theme: #151d2a;
     --container-color-theme: #5272ff1e;
     --sub-color-theme: #299fff;
     --text-hover-color: rgb(147, 181, 238);

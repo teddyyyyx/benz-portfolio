@@ -1,7 +1,10 @@
 #intro{
     padding: 15% 12%;
     box-shadow: var(--box-shadow-section);  
+    position: relative;
     min-height: 85vh;
+    overflow-x: hidden;
+    
 }
 
 .benz-img{
@@ -119,6 +122,7 @@
 @media screen and (max-width: 500px) {
     #intro{
         padding: 0 10% 20%;
+        overflow-y: hidden;
     }
 
     .intro-name-container{
@@ -129,6 +133,16 @@
         margin-left: 1rem;
     }
 
+
+    .lottie-background{
+        display: block;
+        position: absolute;
+        z-index: -99;
+        width: 39rem;
+        overflow-x: hidden;
+        width: fit-content;
+        /* top: 0; */
+    }
 }
 
 @keyframes fadeIn {

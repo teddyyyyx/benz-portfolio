@@ -115,6 +115,11 @@
     width: clamp(20rem, 50vw, 30rem);
 }
 
+.lottie-background{
+    display: none;
+}
+
+
 @media screen and (max-width: 720px) {
     .skill-stack-container-1{
         padding: 1rem;
@@ -145,6 +150,9 @@
         gap: 1rem;
     }
 
+    .skill-grid{
+        width: 80vw;
+    }
     .main-stack-container div{
         width: 7rem;
     }
@@ -154,5 +162,14 @@
 
     .skill-stack-container-1{
         gap: 2rem;
+    }
+
+    .lottie-background{
+        display: block;
+        position: absolute;
+        z-index: -99;
+        width: 38rem;
+        /* top: 0; */
+        overflow: hidden;
     }
 }
