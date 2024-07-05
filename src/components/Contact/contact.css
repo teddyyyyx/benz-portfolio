@@ -1,5 +1,6 @@
 #contact{
-    background: linear-gradient(151.7deg, #5272ff1e  50%, rgba(129, 130, 145, 0.473) 69%);
+    background: linear-gradient(151.7deg, #5272ff07  50%, rgba(129, 130, 145, 0.473) 69%);
+    /* background: linear-gradient(160deg, #5272ff00  55%, rgba(129, 130, 145, 0.219) 65%); */
     display: flex;
     justify-content: center;
     align-items: center;
