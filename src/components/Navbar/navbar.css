@@ -12,6 +12,8 @@
     -webkit-backdrop-filter: blur(12px);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.377);
     background-color: var(--main-color-theme);
+    transition: all 1s
+
 }
 
 .logo-name{
@@ -20,7 +22,9 @@
     font-weight: 300;
     cursor: pointer;
     color: var(--text-color-theme);
+    transition: all .1s
 }
+
 
 .logo-name:hover{
     color: #e7e3e3;

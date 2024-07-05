@@ -15,7 +15,7 @@ export const About = () => {
           className='about-container'
           initial={{ scale: 0.8, opacity: 0,}}
           whileInView={{ scale: 1, opacity: 1,}}
-          transition={{ duration: .5}}
+          transition={{ duration: 0}}
           viewport={{ once: true }}
         >
             <img src={devDudeImg} alt="" className='about-img'/>
@@ -35,7 +35,7 @@ export const About = () => {
           className='about-paragraph'
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: .5, delay: .1}}
+          transition={{ duration: 0, delay: .1}}
           viewport={{ once: true }}
         >
             <p>

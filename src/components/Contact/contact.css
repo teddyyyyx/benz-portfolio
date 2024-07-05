@@ -23,6 +23,8 @@
 .contactTitle{
     color: var(--text-color-theme);
     font-size: clamp(4rem, 5vw, 5rem);
+    transition: all 0.8s
+
 }
 
 .contactDescription{

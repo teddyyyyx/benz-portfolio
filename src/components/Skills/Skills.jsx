@@ -33,7 +33,7 @@ export const Skills = () => {
           <motion.div className="main-stack-container"
             initial={{ scale: 0.8, opacity: 0,}}
             whileInView={{ scale: 1, opacity: 1,}}
-            transition={{ duration: .3}}
+            transition={{ duration: 0}}
             viewport={{ once: true }}
           >
               <div>
@@ -54,17 +54,12 @@ export const Skills = () => {
                 <img src={react} alt="" />
                 <p>React</p>
               </div>
-
-              {/* <div>
-                <img src={cImg} alt="" />
-                <p>C</p>
-              </div> */}
           </motion.div>
 
           <motion.div className='skill-stack-container-1'
           initial={{ scale: 0.8, opacity: 0,}}
           whileInView={{ scale: 1, opacity: 1,}}
-          transition={{ duration: .3}}
+          transition={{ duration: 0}}
           viewport={{ once: true }}
           >
             <div>

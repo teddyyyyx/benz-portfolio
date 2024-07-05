@@ -16,6 +16,8 @@
   width: fit-content;
   margin: 0 auto;  
   padding: 2rem;
+  transition: all 0.5s
+
 }
 
 .about-info{
@@ -83,6 +85,7 @@
   background-clip: text;
   margin-top: 5rem;
   color: var(--text-color-theme);
+  transition: all 0.5s
 }
 
 .about-paragraph p{

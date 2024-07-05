@@ -68,7 +68,9 @@
 }
 
 
-
+.lottie-background{
+    display: none;
+}
 
 @media screen and (max-width: 1700px) {
     #intro{
@@ -128,13 +130,11 @@
         margin-left: 1rem;
     }
 
-
     .lottie-background{
         display: block;
         position: absolute;
         z-index: -99;
         width: 39rem;
-        width: fit-content;
     }
 }
 

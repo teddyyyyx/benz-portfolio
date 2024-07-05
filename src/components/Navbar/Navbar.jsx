@@ -16,7 +16,7 @@ export const Navbar = () => {
   // Value being driven by scrolling (e.g. height)
   const initialValue = 140;
   const finalValue = 108;
-  const thresholdY = 370; // set the scroll position where you want the state change
+  const thresholdY = 850; // set the scroll position where you want the state change
 
   const speed = 1;
   const scrollDistance = (initialValue - finalValue) / speed;
@@ -44,7 +44,7 @@ export const Navbar = () => {
       className="navbar"
       initial={{ y: -110 }}
       animate={{ y: 0 }}
-      transition={{ duration: 1, delay: .8 }}
+      transition={{ duration: 0, delay: .8 }}
     >
           {/* <h1 onClick={scrollToTop} className='logo-name'>benz.st</h1> */}
           <motion.div
@@ -53,6 +53,7 @@ export const Navbar = () => {
               opacity: isPastThreshold ? 1 : 0,
               scale: isPastThreshold ? 1 : 0.5
             }}
+            transition={{duration: 0}}
             className='logo-name'
             onClick={scrollToTop}
           >
