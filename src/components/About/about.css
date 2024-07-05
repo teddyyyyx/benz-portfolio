@@ -82,6 +82,7 @@
   /* -webkit-text-fill-color: transparent; */
   background-clip: text;
   margin-top: 5rem;
+  color: var(--text-color-theme);
 }
 
 .about-paragraph p{

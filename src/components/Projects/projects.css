@@ -18,7 +18,7 @@
     background: linear-gradient(150deg, #5272ff07  60%, rgba(129, 130, 145, 0.178) 80%);
     border-radius: 1rem;
     color: var(--text-color-theme);
-    font-size: clamp(1rem, 1.5vw, 1.3rem);
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
     text-align: center;
     /* transition: 0.1s ease-in-out; */
 }
