@@ -44,7 +44,7 @@ export const Navbar = () => {
       className="navbar"
       initial={{ y: -110 }}
       animate={{ y: 0 }}
-      transition={{ duration: 0, delay: .8 }}
+      transition={{ duration: 1, delay: .8 }}
     >
           {/* <h1 onClick={scrollToTop} className='logo-name'>benz.st</h1> */}
           <motion.div
