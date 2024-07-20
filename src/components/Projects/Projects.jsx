@@ -3,6 +3,7 @@ import './projects.css'
 import prj1 from '../../assets/project-imgs/hanzy-style_prj1.png'
 import prj2 from '../../assets/project-imgs/HoneyFlix_prj2.png'
 import prj3 from '../../assets/project-imgs/Benz_prj3.png'  
+import prj4 from '../../assets/project-imgs/hostjuls_prj4.png'  
 import {  motion } from "framer-motion";
 
 export const Projects = () => {
@@ -16,6 +17,28 @@ export const Projects = () => {
       </h1>
 
 
+      <motion.div className='projects-container'  
+        initial={{ scale: 0.8, opacity: 0,}}
+        whileInView={{ scale: 1, opacity: 1,}}
+        transition={{ duration: 0}}
+        viewport={{ once: true }}
+      >
+          <a href="https://www.hostjuls.com" target='__blank'>
+            <img src={prj4} alt="" className='project-img'/>
+            <p className='visit-site-left'>Visit website</p>
+          </a>
+
+            <div>
+                <a href="https://www.hostjuls.com" target='__blank'>
+                  <h1>Host Juls</h1>
+                </a>
+                Made a website from start up to deployment using ReactJS and SCSS for the highly cherished event host in Bicol.
+                Dark and minimal as requested by Host Juls. With fully functional contact form that will notify Host Juls for future client queries
+            </div>
+      </motion.div>
+      <hr className='projects-hr'/>
+
+{/* */}
       <motion.div className='projects-container'  
         initial={{ scale: 0.8, opacity: 0,}}
         whileInView={{ scale: 1, opacity: 1,}}
