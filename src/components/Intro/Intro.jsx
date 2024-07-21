@@ -19,8 +19,7 @@ export const Intro = () => {
             <Lottie animationData={lottie_mobile} className='benz-img'/>
           
             <IntroButtons/>
-            <Lottie animationData={lottie_background} className='lottie-background'/>
-            {/* <Lottie animationData={lottie_dude} className='benz-img'/> */}
+            {/* <Lottie animationData={lottie_background} className='lottie-background'/> */}
     </section>
 )
 }
