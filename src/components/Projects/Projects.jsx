@@ -16,7 +16,7 @@ export const Projects = () => {
         >Recent Projects
       </h1>
 
-
+{/* */}
       <motion.div className='projects-container'  
         initial={{ scale: 0.8, opacity: 0,}}
         whileInView={{ scale: 1, opacity: 1,}}
@@ -55,8 +55,8 @@ export const Projects = () => {
             </div>
 
             <a href="https://teddyyyyx.github.io/hanzy-stylez-react/" target='__blank'>
-            <img src={prj1} alt="" className='project-img'/>
-            <p className='visit-site-left'>Visit website</p>
+            <img src={prj1} alt="" className='project-img1'/>
+            <p className='visit-site-right'>Visit website</p>
           </a>
       </motion.div>
       <hr className='projects-hr'/>
@@ -70,8 +70,8 @@ export const Projects = () => {
         viewport={{ once: true }}
       >
             <a href="https://teddyyyyx.github.io/movieflix-react/" target='__blank'> 
-              <img src={prj2} alt="" className='project-img1'/>
-              <p className='visit-site-right'>Visit website</p>
+              <img src={prj2} alt="" className='project-img'/>
+              <p className='visit-site-left'>Visit website</p>
             </a>
 
             <div>
@@ -103,7 +103,7 @@ export const Projects = () => {
             emphasizing modularity and code reusability.
           </div>
 
-          <img src={prj3} alt="" className='project-img'/>
+          <img src={prj3} alt="" className='project-img1'/>
       </motion.div>
     </section>
   )
