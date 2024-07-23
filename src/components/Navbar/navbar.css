@@ -77,14 +77,16 @@
 }
 
 @media screen and (max-width: 720px){
+    .navbar{
+        display: flex;
+        height: 4.5rem;
+        justify-content: space-between;
+    }
+
     .burgerMenu{
         display: flex;
     }    
-    .navbar{
-        display: flex;
-        height: 5rem;
-        justify-content: space-between;
-    }
+
     .desktopMenu{
         display: none;
     }
