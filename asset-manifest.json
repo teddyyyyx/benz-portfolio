@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/benz-portfolio/static/css/main.82469ecc.css",
-    "main.js": "/benz-portfolio/static/js/main.94ab9e3c.js",
+    "main.js": "/benz-portfolio/static/js/main.bade4700.js",
     "static/media/Tagle.png": "/benz-portfolio/static/media/Tagle.5b3817db8fb32b7b6042.png",
     "static/media/HoneyFlix_prj2.png": "/benz-portfolio/static/media/HoneyFlix_prj2.b8d0f6ef6e0e0d02379a.png",
     "static/media/Montserrat-Medium.ttf": "/benz-portfolio/static/media/Montserrat-Medium.b8c6753baa964ccac1ba.ttf",
@@ -18,6 +18,7 @@
     "static/media/canva.svg": "/benz-portfolio/static/media/canva.b09b8934c1cf1af5e74cf45a9cc586c4.svg",
     "static/media/react.svg": "/benz-portfolio/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
     "static/media/illustrator.svg": "/benz-portfolio/static/media/illustrator.bc6bf2065f2fc8c98aec1f6286876525.svg",
+    "static/media/astro.svg": "/benz-portfolio/static/media/astro.d1d968559155453ac62a7c9be8d6c3ff.svg",
     "static/media/wordpress.svg": "/benz-portfolio/static/media/wordpress.afbd97f5dfb26b597d149530afb8d1cc.svg",
     "static/media/photoshop.svg": "/benz-portfolio/static/media/photoshop.4a391b7067e054e5d86cf57fa1723159.svg",
     "static/media/git.svg": "/benz-portfolio/static/media/git.8ee81345da1c18b6cdb4bbe93b464810.svg",
@@ -31,10 +32,10 @@
     "static/media/javascript.svg": "/benz-portfolio/static/media/javascript.b879f838faf1cb951d1c2230fd933a39.svg",
     "static/media/framer-motion.svg": "/benz-portfolio/static/media/framer-motion.cd0e8acf350dd639e9e8c999f8539a5e.svg",
     "main.82469ecc.css.map": "/benz-portfolio/static/css/main.82469ecc.css.map",
-    "main.94ab9e3c.js.map": "/benz-portfolio/static/js/main.94ab9e3c.js.map"
+    "main.bade4700.js.map": "/benz-portfolio/static/js/main.bade4700.js.map"
   },
   "entrypoints": [
     "static/css/main.82469ecc.css",
-    "static/js/main.94ab9e3c.js"
+    "static/js/main.bade4700.js"
   ]
 }
