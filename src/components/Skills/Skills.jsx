@@ -19,6 +19,7 @@ import canva from '../../assets/svg/canva.svg'
 import tux from '../../assets/svg/tux.svg'
 import framer from '../../assets/svg/framer-motion.svg'
 import wordpress from '../../assets/svg/wordpress.svg'
+import astro from '../../assets/svg/astro.svg'
 
 
 
@@ -53,6 +54,10 @@ export const Skills = () => {
               <div>
                 <img src={react} alt="" />
                 <p>React</p>
+              </div>
+              <div>
+                <img src={astro} alt="" />
+                <p>Astro</p>
               </div>
           </motion.div>
 
