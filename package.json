@@ -1,5 +1,5 @@
 {
-  "homepage_remove_for_vercel": "https://teddyyyyx.github.io/benz-portfolio",
+  "homepage": "https://teddyyyyx.github.io/benz-portfolio",
   "name": "benz-portfolio",
   "version": "0.1.0",
   "private": true,
